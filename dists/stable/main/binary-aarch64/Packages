@@ -1,0 +1,15 @@
+Package: termux-am
+Installed-Size: 620
+Maintainer: Michal Bednarski @michalbednarski
+Architecture: all
+Version: 0.8.0-2
+Conflicts: termux-tools (<< 0.51)
+Filename: pool/main/t/termux-am/termux-am_0.8.0-2_all.deb
+Size: 576184
+MD5sum: 5d0636163b43ad638d9a66ef664d1c76
+SHA1: f401e5df8f291557c4248a7473f247b84a6cc4d8
+SHA256: 04d1eca8af19c5ecd9761ca96f4f1c108942d0b00809db49ea489f2d3981288b
+SHA512: 91dc9f7f3aca054e883444630df7e77d30638750a9b035d2dd022e6dfddf01836ddebdfe3f83a6528594821e3484c37a9ae7244cacea2d523cb0e252daf3e707
+Description: Android Oreo-compatible am command reimplementation
+Homepage: https://github.com/termux/TermuxAm
+
