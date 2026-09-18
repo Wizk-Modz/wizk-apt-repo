@@ -304,6 +304,20 @@ SHA512: 1e356bbcd86f16072aef95b1209845c067f90c38f55b666eb261349c5632625028c3bc96
 Description: Common CA certificates (java keystore format)
 Homepage: https://curl.se/docs/caextract.html
 
+Package: cloudflared
+Installed-Size: 28280
+Maintainer: @termux
+Architecture: aarch64
+Version: 2026.9.1
+Filename: pool/main/c/cloudflared/cloudflared_2026.9.1_aarch64.deb
+Size: 6673240
+MD5sum: 38ebbe55b6bca72877b2dcf148846af0
+SHA1: ff4f0e465cb7b1d80162164a60fdaa4dfd2bc246
+SHA256: 652af13b1e9297df106b8dd6468d843e306ef0f1647aab73e2e5bac97f7c3737
+SHA512: 7617c3091594771f8f6d52bf5c6fc97de9e6a223a813293d89d102a9e7ddf34d88cd5758cff6ba76b4d82dbed037ffa50d3fbbbc93e907fc507f70b00270d45e
+Description: A tunneling daemon that proxies traffic from the Cloudflare network to your origins
+Homepage: https://github.com/cloudflare/cloudflared
+
 Package: coreutils
 Essential: yes
 Installed-Size: 2788
@@ -794,6 +808,37 @@ SHA256: 6b23c156ee550109af9197fd247eb9ca1b0b4a8fdb8e71b82ef6da52c3d21d8b
 SHA512: 46cfd099c995a3cb03961116ba382d810da4fce75805dcabb0d42fac27617938a6e7b7dac22ccd228ec09e588e3febdf27232e3ee1abba5caab0aea5ba7dfb7c
 Description: Commandline utilities for interfacing with the gnutls library
 Homepage: https://www.gnutls.org/
+
+Package: golang
+Installed-Size: 223812
+Maintainer: @termux
+Architecture: aarch64
+Version: 3:1.27.1
+Depends: clang
+Recommends: resolv-conf
+Filename: pool/main/g/golang/golang_3:1.27.1_aarch64.deb
+Size: 38089644
+MD5sum: 2f5bee97fe2b69f71d5de88b4b074ca0
+SHA1: 796fb284cfef46597eab855384b9d3e61b4c91c1
+SHA256: 78a37c79a18954680b11ceaad9dcf200f9569802d07355e530a170075d0fa9fe
+SHA512: 4aaec4c4c2034e0dec7917b1e21288803adddce2f0e3feca05feb8b3f2aee245e65752b8b58b8d38309b85f727b112d90a70fe078b959fc19ee40492a0e52b8f
+Description: Go programming language compiler
+Homepage: https://go.dev/
+
+Package: golang-doc
+Installed-Size: 476
+Maintainer: @termux
+Architecture: aarch64
+Version: 3:1.27.1
+Depends: golang (= 3:1.27.1)
+Filename: pool/main/g/golang-doc/golang-doc_3:1.27.1_aarch64.deb
+Size: 94628
+MD5sum: 3b6addef763c8168b928ff5e345565c7
+SHA1: 66842aa5f5aa90fb29812901137f293e25e741c1
+SHA256: 95e91df18e162580f25ae29f669172f99498ec3402e30bcb4f1933f54d23ae6d
+SHA512: 2b427e8a48d2c9589160c87908504157507eb3235c86c9f4b0c13863a398c2ed0e188202c00e0bde49ff6cb310d264740a4f725e730fb9df09d62286ae4391d6
+Description: Go programming language - documentation
+Homepage: https://go.dev/
 
 Package: gpgv
 Installed-Size: 508
@@ -3302,6 +3347,20 @@ SHA256: c0cefdebf94e083fcf51341a2800d7ddf0d1c8387c23a18cc12f81381b5e7aba
 SHA512: 8da493cac16d2b4b9b22fe18438514f4927de9018aa9c060ead6a5abab015d550da98c39f3fcdc8ab4c02ef3518cd21f102ae3e60fa29dcb79e49909a4768b24
 Description: Powerful but easy to learn dynamic programming language
 Homepage: https://www.tcl.tk/
+
+Package: tea
+Installed-Size: 29136
+Maintainer: @termux
+Architecture: aarch64
+Version: 0.16.0
+Filename: pool/main/t/tea/tea_0.16.0_aarch64.deb
+Size: 6167600
+MD5sum: 3dc14b6913a4d167be9d11202bc08590
+SHA1: 7b96be106518280a60595d0bbe0b3307a95928ea
+SHA256: 8eba1f409b23ff2dccd5e1cece099448410773545bfb2e2102ce90a2031b05ff
+SHA512: 01383bccf9030c33d9a360195bde691839db4a7e14c6d22364b86e8bc107f9dbfa60e3c0cd4a1780e4fee66ae68c77a01b98e75112217f20e355a0e37796b7d3
+Description: The official CLI for Gitea
+Homepage: https://gitea.com/gitea/tea
 
 Package: termux-am
 Installed-Size: 620
