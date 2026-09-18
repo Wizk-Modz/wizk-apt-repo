@@ -1,3 +1,175 @@
+Package: file
+Installed-Size: 76
+Maintainer: @termux
+Architecture: aarch64
+Version: 5.48-3
+Replaces: file-dev
+Depends: libmagic (= 5.48-3)
+Breaks: file-dev
+Filename: pool/main/f/file/file_5.48-3_aarch64.deb
+Size: 17528
+MD5sum: 4c708fb3ac5750356e30b7233eb22ae5
+SHA1: 1e44120fc660ad84e6c8e8af59b666eea96cb78d
+SHA256: 95784957a04e03828a97e3429336808cfdabefbbd361a220426a10c74791fa4b
+SHA512: e26857f6002cef4ddb97ccfa4ca4605751d4d73ce6dbf8b0d1dfe211a6f08ff75520b258eac6a6520f34b6246baaf1788572722fda97f5e5ff3edd2a236cef63
+Description: Command-line tool that tells you in words what kind of data a file contains
+Homepage: https://darwinsys.com/file/
+
+Package: libandroid-support
+Essential: yes
+Installed-Size: 76
+Maintainer: @termux
+Architecture: aarch64
+Version: 29-1
+Filename: pool/main/liba/libandroid-support/libandroid-support_29-1_aarch64.deb
+Size: 10928
+MD5sum: b86fee2204af445dc04b0ee567937bc7
+SHA1: fda4254acc37e36df5559783e431f765cad34113
+SHA256: 83cfc12e47fbff33f7d4b62a26cea92565ba7f8a3abcc721f1b5bd0fbaa9d5ab
+SHA512: 72e1e0ae128fe8d4377edee527d3d8c78333281c988f825490d1bed57e273af80e9fdcc52a5504d2e04ee4c626d32d7996a518b508bb24e51663c1bfaa3a112e
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+Homepage: https://github.com/termux/libandroid-support
+
+Package: libandroid-support-static
+Installed-Size: 72
+Maintainer: @termux
+Architecture: aarch64
+Version: 29-1
+Depends: libandroid-support (= 29-1)
+Filename: pool/main/liba/libandroid-support-static/libandroid-support-static_29-1_aarch64.deb
+Size: 8640
+MD5sum: e8a5e256ff740107af7ff4e8062b3804
+SHA1: ea56efae77668dabffd750e796c8c369c0b51011
+SHA256: aa5cbeeef258a73103ec972cb025ed7bd7fa4d3405d3c11741c854acf752ea3d
+SHA512: db3c4c10100e1b872f31c3bc9196503a79b3bea5bee901550cdbf164efa34885e583fa689b65162c2e7439385c1b0900d4c2db4e97369a9b6d8932935e26c791
+Description: Static libraries for libandroid-support
+Homepage: https://github.com/termux/libandroid-support
+
+Package: libmagic
+Installed-Size: 10776
+Maintainer: @termux
+Architecture: aarch64
+Version: 5.48-3
+Replaces: file (<< 5.48-2)
+Depends: zlib
+Breaks: file (<< 5.48-2)
+Filename: pool/main/libm/libmagic/libmagic_5.48-3_aarch64.deb
+Size: 396136
+MD5sum: 88f82d9a4272b2f59b8a06838c908da0
+SHA1: cba8bd8e978a17d082f14fc72d0debb2f8029943
+SHA256: 9f5be8fe15d96c59085f5c8d0f681a52db526c3ea73341c804d866a3f7c7d335
+SHA512: ac3620b66a7b1826f0a6fab95d1d5a6a742882ce61603c6e1c01bf76617cb64495f4a4b96e9864cfe6750ed631209df4140fd7e3bf37ace79e6c8300e918b995
+Description: File type identification library
+Homepage: https://darwinsys.com/file/
+
+Package: libmagic-static
+Installed-Size: 284
+Maintainer: @termux
+Architecture: aarch64
+Version: 5.48-3
+Depends: libmagic (= 5.48-3)
+Filename: pool/main/libm/libmagic-static/libmagic-static_5.48-3_aarch64.deb
+Size: 69000
+MD5sum: 8147b8b59fcfb316cb3c284d051b59ac
+SHA1: 0db705ad620e7785488ea226b632707e85dab42c
+SHA256: bce96f9f8136dad57f7870ac619666cf767052d9c525d521d4d7c439500e4b2c
+SHA512: 34fe53fe1b8a8d6b4b5c562f8eefa750147dd2257874021a72029426fa789ee345374666016766d2c7713465e1166d4aa74a98c653359fe8b235f343c4e3d516
+Description: Static libraries for libmagic
+Homepage: https://darwinsys.com/file/
+
+Package: nano
+Installed-Size: 1040
+Maintainer: @termux
+Architecture: aarch64
+Version: 9.2-1
+Depends: libandroid-support, ncurses, libmagic
+Filename: pool/main/n/nano/nano_9.2-1_aarch64.deb
+Size: 242200
+MD5sum: 7c08c1710ed0d5be108724a6a0290c52
+SHA1: 1e398e03e634748a786d74ba6338c41b0e4febf3
+SHA256: 09699343c979668347200f5ab893ba42170a98dfa48eb7a988f708fd94b7550b
+SHA512: c4dffd96d1fc1c603f3847df740ffd8b55a0e120434821703ad52336ff7af546f94b9149c4e674b12b292817155cc0b57cff0909c87abf1dfc9922f52613d2bf
+Description: Small, free and friendly text editor
+Homepage: https://www.nano-editor.org/
+
+Package: ncurses
+Installed-Size: 1600
+Maintainer: @termux
+Architecture: aarch64
+Version: 6.6.20260307+really6.5.20250830
+Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
+Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
+Filename: pool/main/n/ncurses/ncurses_6.6.20260307+really6.5.20250830_aarch64.deb
+Size: 557952
+MD5sum: 3836469a25f30caefae3058abd21ef71
+SHA1: 27c996b6a56794a75655f5193e1090576ba0e439
+SHA256: a362b4deabea8224406177eaf8b8bbfbf33e05d9958e041abcafd679dbfa0b99
+SHA512: 53fad2df87f936128b0c119612fd4e0a816b3ec57ced9f3a528451be1d6fd17d035caa38181165f97970553f0417eea8645542a7aa4d4e4c1d58bdaed0ff9274
+Description: Library for text-based user interfaces in a terminal-independent manner
+Homepage: https://invisible-island.net/ncurses/
+
+Package: ncurses-static
+Installed-Size: 784
+Maintainer: @termux
+Architecture: aarch64
+Version: 6.6.20260307+really6.5.20250830
+Depends: ncurses (= 6.6.20260307+really6.5.20250830)
+Filename: pool/main/n/ncurses-static/ncurses-static_6.6.20260307+really6.5.20250830_aarch64.deb
+Size: 154176
+MD5sum: ffbce3989a312d3df40f21820185bf2f
+SHA1: d3545c808244f1d2bedcc90b53954dd11a2a519d
+SHA256: b2c9b5bd1af3ec30adb22d77e201549c4af1db94e8031f8c6b396c95ca28576c
+SHA512: ef2badcdcf0d7af795d8dcc378c77bd95aedb22e80aedb4b276a2fa964bdc6f5f63992f00120695b3035bb4e7b76489d34343f1f21cddcf8db2ebd3f51ef533c
+Description: Static libraries for ncurses
+Homepage: https://invisible-island.net/ncurses/
+
+Package: ncurses-ui-libs
+Installed-Size: 148
+Maintainer: @termux
+Architecture: aarch64
+Version: 6.6.20260307+really6.5.20250830
+Replaces: ncurses (<< 6.4)
+Depends: ncurses (= 6.6.20260307+really6.5.20250830)
+Breaks: ncurses (<< 6.4)
+Filename: pool/main/n/ncurses-ui-libs/ncurses-ui-libs_6.6.20260307+really6.5.20250830_aarch64.deb
+Size: 32956
+MD5sum: 02d5380540bb9450ba34d2c2995929bb
+SHA1: db7d5f1082d8f1e0f09a32b46d949363554b486b
+SHA256: 640f16aad77ea7ddfcf908e7b53493a0ec06adb0a520ed6c24e56a22241a90e2
+SHA512: ffa40793dc1aa6f61dc97af0949f8af3de843556c95f9675095cebb46c9b09a041af6c6ab89ed80d454aed563844614dc0bd7ac132816da59018d9725ca701ee
+Description: Libraries for terminal user interfaces based on ncurses
+Homepage: https://invisible-island.net/ncurses/
+
+Package: ncurses-ui-libs-static
+Installed-Size: 260
+Maintainer: @termux
+Architecture: aarch64
+Version: 6.6.20260307+really6.5.20250830
+Depends: ncurses-ui-libs, ncurses (= 6.6.20260307+really6.5.20250830)
+Filename: pool/main/n/ncurses-ui-libs-static/ncurses-ui-libs-static_6.6.20260307+really6.5.20250830_aarch64.deb
+Size: 39536
+MD5sum: a5c7eea34dda153aea882d8d176ef404
+SHA1: 376233ec139251c7f9e3dc5c19f89827e83ea2cf
+SHA256: e264fe1d433fc701711a9c64c507e3ec3e16e0ba04f5d5497e749c9ada1e15fd
+SHA512: 9a040d660bac698427f2f7d1fa4dab70b5d490c9c59828f39b104a1e330f9cb073d53197e6e6402aa466807df5a1cb5bfab215a034941a84993b82ae76051eb2
+Description: Static libraries for terminal user interfaces based on ncurses
+Homepage: https://invisible-island.net/ncurses/
+
+Package: ncurses-utils
+Installed-Size: 272
+Maintainer: @termux
+Architecture: aarch64
+Version: 6.6.20260307+really6.5.20250830
+Depends: ncurses (= 6.6.20260307+really6.5.20250830)
+Filename: pool/main/n/ncurses-utils/ncurses-utils_6.6.20260307+really6.5.20250830_aarch64.deb
+Size: 89004
+MD5sum: 0cb972c115871feaa702d31fa542b937
+SHA1: 6bd37d71ec5c10a48a52c312e222563a906dac88
+SHA256: ac251d9de43120218e13d99b164aa9cc204e7b0760336c7ae2ce6a83a1df2f44
+SHA512: 810d16b7b27589145302c6716853c4ada41e6f1ec4cada03a22e912d0e93c56ebd3a7f53205879876189b7459a90f3ab9e8d26b167a3634d72d0557c033b276a
+Description: Tools for working with terminals
+Homepage: https://invisible-island.net/ncurses/
+
 Package: termux-am
 Installed-Size: 620
 Maintainer: Michal Bednarski @michalbednarski
@@ -12,4 +184,35 @@ SHA256: 04d1eca8af19c5ecd9761ca96f4f1c108942d0b00809db49ea489f2d3981288b
 SHA512: 91dc9f7f3aca054e883444630df7e77d30638750a9b035d2dd022e6dfddf01836ddebdfe3f83a6528594821e3484c37a9ae7244cacea2d523cb0e252daf3e707
 Description: Android Oreo-compatible am command reimplementation
 Homepage: https://github.com/termux/TermuxAm
+
+Package: zlib
+Installed-Size: 264
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.3.2
+Replaces: ndk-sysroot (<< 19b-3), zlib-dev
+Breaks: ndk-sysroot (<< 19b-3), zlib-dev
+Filename: pool/main/z/zlib/zlib_1.3.2_aarch64.deb
+Size: 62940
+MD5sum: 1ef293e165411b618c0507054b6b3e44
+SHA1: 156b5dcd257b770dab139286ee5b99582ede295a
+SHA256: e72f510f8cb76b6ff4e890951453912bf5bbced86fee94fd04861ba5edc44103
+SHA512: ffbd50e9ef9c2cea29af0f4b1c35ef4d4888018a97d13ea8fe12029d2567b302c7a0fde1fb551d7c8cc285987b085c5f5e1ac410fa1d963ba014d60ca2c39296
+Description: Compression library implementing the deflate compression method found in gzip and PKZIP
+Homepage: https://www.zlib.net/
+
+Package: zlib-static
+Installed-Size: 140
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.3.2
+Depends: zlib (= 1.3.2)
+Filename: pool/main/z/zlib-static/zlib-static_1.3.2_aarch64.deb
+Size: 35472
+MD5sum: 6ecf43975dc4a7034a3fec05dfa0a2e7
+SHA1: c7981ff6d764abdc4f917d33878b42b59f4d0002
+SHA256: 4ef9779d7f3aedb32758e25c35a3bd730c3a66b7aa2bd96476c95d8f656a9877
+SHA512: 707eb3309509218c4733bdcce806eb46330df38da604b54125e0f2fa518849eaebebef125a9077ec95e637fbdea74e620a975e569bc9fc535428f7ef312ecdc6
+Description: Static libraries for zlib
+Homepage: https://www.zlib.net/
 
