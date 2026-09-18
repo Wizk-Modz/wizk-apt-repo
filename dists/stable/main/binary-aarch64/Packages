@@ -15,6 +15,38 @@ SHA512: e26857f6002cef4ddb97ccfa4ca4605751d4d73ce6dbf8b0d1dfe211a6f08ff75520b258
 Description: Command-line tool that tells you in words what kind of data a file contains
 Homepage: https://darwinsys.com/file/
 
+Package: jq
+Installed-Size: 524
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.8.2
+Replaces: jq-dev
+Depends: oniguruma
+Breaks: jq-dev
+Filename: pool/main/j/jq/jq_1.8.2_aarch64.deb
+Size: 184712
+MD5sum: 9e374d7aad7d4773d8cf298da3fbff50
+SHA1: def095f939bffff5706411e0ffca0a4f459ffd7c
+SHA256: e701e69c5e4d9d002086242c4c4f2e4085d1faf4f52eca8d0daa8eb0c20e59ed
+SHA512: 0afa83fc5f87ed7041a6b68dfaf2c7776f20137c8edfcbc4a4dd7dd25e3780a89e0d5b32f310a647784e309084fa31d9a3738dab5e0d3e2508e37a98307a7f7b
+Description: Command-line JSON processor
+Homepage: https://jqlang.org/
+
+Package: jq-static
+Installed-Size: 628
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.8.2
+Depends: jq (= 1.8.2)
+Filename: pool/main/j/jq-static/jq-static_1.8.2_aarch64.deb
+Size: 141752
+MD5sum: b152022846facdcfa72b9c8bedbc126d
+SHA1: 69563a06cb02284d26d0fb0f7b43f271b32c9e78
+SHA256: acbc8ebf6c674b545ff48e4f4472172b46a0cd9cab74e312364434b4f062a108
+SHA512: 3cb109dcd393cd94314213765a1fd446541530762d25b658bde5f788ba9a3caec4c3f5634388604a152a545a7f8a41f75f5c972105e57f68c41a4adbee01b09e
+Description: Static libraries for jq
+Homepage: https://jqlang.org/
+
 Package: libandroid-support
 Essential: yes
 Installed-Size: 76
@@ -169,6 +201,35 @@ SHA256: ac251d9de43120218e13d99b164aa9cc204e7b0760336c7ae2ce6a83a1df2f44
 SHA512: 810d16b7b27589145302c6716853c4ada41e6f1ec4cada03a22e912d0e93c56ebd3a7f53205879876189b7459a90f3ab9e8d26b167a3634d72d0557c033b276a
 Description: Tools for working with terminals
 Homepage: https://invisible-island.net/ncurses/
+
+Package: oniguruma
+Installed-Size: 688
+Maintainer: @termux
+Architecture: aarch64
+Version: 6.9.10-1
+Filename: pool/main/o/oniguruma/oniguruma_6.9.10-1_aarch64.deb
+Size: 136084
+MD5sum: ed5b51f02b065e9d86d98d50dde1840a
+SHA1: e3445e9fc39672006244c817a4d1ffd5d3dc63a3
+SHA256: 35ff3bf9f3dd16c6fd0911734d275107c1e6b33cc46c26b1285c8ca0a6980699
+SHA512: 67ace09f79c64b64e42cd8c9ef9aa990f14226954b1cea6ec874866acd3f9ac012840bd725e970cec3c73baf8951bdf8701cfd482afd5761bc0dbc48a4ac8ddc
+Description: Regular expressions library
+Homepage: https://github.com/kkos/oniguruma
+
+Package: oniguruma-static
+Installed-Size: 816
+Maintainer: @termux
+Architecture: aarch64
+Version: 6.9.10-1
+Depends: oniguruma (= 6.9.10-1)
+Filename: pool/main/o/oniguruma-static/oniguruma-static_6.9.10-1_aarch64.deb
+Size: 142992
+MD5sum: 0cea3b190d2249bf90efe7bdcf66d6d2
+SHA1: 3b0e59d7e1bb9a02a1e078ce998da4a139d756ea
+SHA256: cafbc49aa154acbd00f30c219703cb96911da8e805a46eae3c46fff9c5d97b79
+SHA512: 3aa628857250062d990e50fb4ca737480c14b19f73b5e1089a38c7df85c2c0859a4168b0cd95766b1ba86cb90bc740079d753a443f4de7ffb9ee7baa552704c5
+Description: Static libraries for oniguruma
+Homepage: https://github.com/kkos/oniguruma
 
 Package: termux-am
 Installed-Size: 620
