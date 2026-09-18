@@ -466,11 +466,11 @@ Architecture: aarch64
 Version: 3.12-2
 Depends: libiconv
 Filename: pool/main/d/diffutils/diffutils_3.12-2_aarch64.deb
-Size: 163124
-MD5sum: 22ea0fdb2e59cdff2541b4a5edaeead4
-SHA1: bb7484e2638f4a67df7ca3d87e550baa0ce6a836
-SHA256: d71cdedb3ef2b43b88a190d1f3d525910ca03914ea7c9717532b7bdf86455913
-SHA512: b9fe4a83cd5f2f3a2282366c695b101817523e55acb5def139a91af728df76e47bd6cae24772b6df853bb58af5861903d3b11f413447bbf2a2e92d754862e3ce
+Size: 162860
+MD5sum: 8a64c729c7b42ccaef3ae6ee5ee63999
+SHA1: f60ba3a07c2bd9fbd560ef0f4b33c633a1487154
+SHA256: 5652b43d0ae2f48aadc9919297a2100495ddcebbfb328174148009d4f448beee
+SHA512: 72f719fbd589d7a584fa3b6f49287bb7541d3cafca8d151311bdf161a48c46212631b4cc29e9c94e30c4797bcdf78819727056c6655aa6f15ee9557d4e64247c
 Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
 Homepage: https://www.gnu.org/software/diffutils/
 
@@ -497,11 +497,11 @@ Architecture: all
 Version: 1.79.2-4
 Depends: docbook-xml (>= 5.1), libxml2-utils, xsltproc
 Filename: pool/main/d/docbook-xsl/docbook-xsl_1.79.2-4_all.deb
-Size: 1368944
-MD5sum: 542b488575e7e4bb8ff5d76f687287a1
-SHA1: 606556b1a14a0e538cb2964171f7a94066ab09ce
-SHA256: 4521117068fdb8a763c2331e544025907894bd1a7c7926bccfde3cbcfa32cb8e
-SHA512: 59832be013e340dad7a1e3c601817eb6d2862900ab0d3681a69c6598812b8425f1b5c7effcd194584b661203ce23313dec0a44430b3bbb533287e2b5fa512f9a
+Size: 1368752
+MD5sum: b2fd063da2e26221872b518f004741e5
+SHA1: 32b4060ae821c6bb102ce2fee60377a3d8c1ffb0
+SHA256: 563a24f2962b723581d3aa895b58ae2163f8bc56a53a716d1e1d39689e811d3e
+SHA512: ce92cb3be29597f7e3262a5ba6e8fe462f8c4ae1b08e4a8b27e429142066a7d5c9e055f43c9a320b4a1abebb4cef69700908b20bd3cc00368395c8f6a58c6c03
 Description: XML stylesheets for Docbook-xml transformations
 Homepage: https://docbook.org/
 
