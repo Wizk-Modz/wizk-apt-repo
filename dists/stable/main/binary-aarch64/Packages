@@ -3333,6 +3333,36 @@ SHA512: 698aef2b1492feed16e1054260148c69316406d7f35f7567b76709799fb012f8ae24f4fb
 Description: A faster version of am with less features that only works while Termux is running
 Homepage: https://github.com/termux/termux-am-socket
 
+Package: termux-api
+Installed-Size: 364
+Maintainer: @termux
+Architecture: aarch64
+Version: 0.60.0
+Depends: bash, util-linux, termux-am (>= 0.8.0)
+Filename: pool/main/t/termux-api/termux-api_0.60.0_aarch64.deb
+Size: 30100
+MD5sum: e9b6cafe23f7161abee70ef76c051759
+SHA1: 2d976c360070b9a579cb8af06c0c1ce8f82bdac7
+SHA256: 0190e443c7b019a8221cec30b98e70b34c6b29830c1d8171fc3b3dfe68218872
+SHA512: b716fbe05eabee99e7eb6dfd8298f2410a7e3f881643f394013cf76d1bc0c9c13dac35f82b2438c7daf00d2c034d8f54e40e81132106aa8fcd86019edb24835e
+Description: Termux API commands (install also the Termux:API app)
+Homepage: https://wiki.termux.com/wiki/Termux:API
+
+Package: termux-api-static
+Installed-Size: 48
+Maintainer: @termux
+Architecture: aarch64
+Version: 0.60.0
+Depends: termux-api (= 0.60.0)
+Filename: pool/main/t/termux-api-static/termux-api-static_0.60.0_aarch64.deb
+Size: 6140
+MD5sum: 3a2bd55927eca52f8d6b5f5e5c64a984
+SHA1: f6edaccc3fd1c8202eee4efac027836fc3786d94
+SHA256: dbba43329ccdb415c838134f2a0a542e00038e11edf88810a615147cb0f6e34a
+SHA512: 532792c5f1ce81801201ef7ff9bac67325ff98f8289681ccdbeacf009f9b5004d4f382a1c0c8ffe5667f6b1e06bb2285d8a9fe07a548942940313a191ca2012d
+Description: Static libraries for termux-api
+Homepage: https://wiki.termux.com/wiki/Termux:API
+
 Package: termux-auth
 Installed-Size: 80
 Maintainer: @termux
@@ -3379,6 +3409,21 @@ SHA256: bd2323db9925f2a1ce84ff8f9e25278d205ee1310c8a24ee5d839556fcc85945
 SHA512: 3be025e296c3e0145827b03b664b17a3ecd71bae5b34e8e5494e0de02ab88fc903fc9f1d90d30bf2d7eb67f9d51337b613a9b4785f3b938b8bb6534206d3efe5
 Description: Static libraries for termux-core
 Homepage: https://github.com/termux/termux-core-package
+
+Package: termux-elf-cleaner
+Installed-Size: 88
+Maintainer: @termux
+Architecture: aarch64
+Version: 3.0.1-1
+Depends: libc++
+Filename: pool/main/t/termux-elf-cleaner/termux-elf-cleaner_3.0.1-1_aarch64.deb
+Size: 18064
+MD5sum: aec6e2b9a5fd7eacb24e592149e6c1c4
+SHA1: ac5bc5c6b0668b9f287d5a816ad58360b6dba3df
+SHA256: 823f655cc37331dd6d5475f1292774344381a03aa92c67ebf8eb4285ddbe6ba8
+SHA512: ffc70f426bca8e58f1ce27a85da06a3f7bbe0e0d9e5f1cb8f0efd2c847268c538770a5ecf33a2dbc83beb385d62e964ccf9b7ae99772834b294ae09d01f52fe9
+Description: Cleaner of ELF files for Android
+Homepage: https://github.com/termux/termux-elf-cleaner
 
 Package: termux-exec
 Essential: yes
