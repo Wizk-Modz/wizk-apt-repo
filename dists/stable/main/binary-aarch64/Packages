@@ -3275,11 +3275,11 @@ Architecture: aarch64
 Version: 1.5.7-1
 Depends: libc++, zstd (= 1.5.7-1)
 Filename: pool/main/p/pzstd/pzstd_1.5.7-1_aarch64.deb
-Size: 41792
-MD5sum: e1276a53aeab1adf700c4feeecd0f7c8
-SHA1: ef0448f4f605a7e5e61fcc5c7495b99281b294fa
-SHA256: 7848b7980fd42ae78305fa1c8f7d7c61ad6cbeef2fbcb71ff98cb9555f3592fb
-SHA512: ddefab96b03f28ef536458c18ae9a999cd037b1bf6b558a2b25b7a82ce9a275ca4b179d30625ffa204dae3935e84cfc18a4eb2ec8d8c5593799e6069b64027bf
+Size: 41848
+MD5sum: 81f11f0767447d7e34778f3eaf7e89ca
+SHA1: 2cfbbb23ad70dde6e7abe9333100234dabbe8e4f
+SHA256: 03e7870ac4b83f284f7e4b10b9a87210e65264040b67b94ab49284ebcf667f4c
+SHA512: 86208b5abf2d15ded325a2a6897fd2a372fe3a4161daa3f899e44c5b487e69d8406ba9c5d29e050319d2cc1cf0346df6e0cb3f9778e9f22e643a478dd3a8471c
 Description: A Pigz-like tool for Zstandard
 Homepage: https://github.com/facebook/zstd
 
@@ -3741,11 +3741,11 @@ Architecture: aarch64
 Version: 8.6.14-1
 Depends: fontconfig, libx11, libxft, libxss, tcl
 Filename: pool/main/t/tk/tk_8.6.14-1_aarch64.deb
-Size: 1754968
-MD5sum: ab79012d2afb4cf536c9e9811164ef69
-SHA1: 21913f435f03fa9521d04504fed9d83ee35cc936
-SHA256: 4eb2e70e0a1d6ee37c809cf15b2fd60b8864d92b1de93cba07749288d8c9d161
-SHA512: 027d27eae73dcfcdfb2372e187c414558ad5f120dcd48d10500b895c9fbfaea1e162320ee76d984956b3625dcd5d983be9db73ba450508f2a20cab79fd63f399
+Size: 1756244
+MD5sum: 82fde9c0815785b08d798b789fb53f79
+SHA1: 138f757595d4b75a040f44afba3ecf984108261f
+SHA256: 1f8c75e370dd0fa55e494df8024f118e0d6e734820bd6ad86c566aa855249c60
+SHA512: b230dce95121e805e87cf1bef2d342fbc89fa44d3dbd9226a7cfe42ecf5c91fc721d9d4e4a56562941a7c6af905fbb9de32e5e1736020ff41e70e037acc372c2
 Description: A windowing toolkit for use with tcl
 Homepage: https://tcl.sourceforge.net/
 
@@ -4063,11 +4063,11 @@ Replaces: zstd-dev
 Depends: liblzma, zlib
 Breaks: zstd-dev
 Filename: pool/main/z/zstd/zstd_1.5.7-1_aarch64.deb
-Size: 359464
-MD5sum: 28d5f3a3a100a5a828378dbf0cfee465
-SHA1: 076be3b338087a4729426a1682b04aca70887470
-SHA256: c2ede5f3e7d91c04ccbe88cf484209c4cd718b46f339bbd557fa2efb6304724b
-SHA512: e85cf8799ab210dfdf85f92897161fb5028b9564f2ef85b9db9cc6023e496b299e60acbdbd06506662fca0d141ccd901822b83f0566ee5df1bcd0199f7c6c124
+Size: 359408
+MD5sum: cbdffb3111d97cbf203b38d202fac619
+SHA1: 1f021642639978087d59a61b41149e874d42ced0
+SHA256: ed4f9abaed6395a9373274786e995f0f60f6933db9fb621a6d84d37f3e88996b
+SHA512: 240b409f9186f848f8ff1bea66a355850286d3d55e7957af13e6d219d1c5f3c891b2c9ef5b42149d4f98b18c37c04a1d10ce343c71f757545856e90dc9e5da83
 Description: Zstandard compression
 Homepage: https://github.com/facebook/zstd
 
