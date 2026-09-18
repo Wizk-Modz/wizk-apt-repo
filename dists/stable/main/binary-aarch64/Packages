@@ -296,11 +296,11 @@ Architecture: aarch64
 Version: 1.0.8-8
 Depends: libbz2 (= 1.0.8-8)
 Filename: pool/main/b/bzip2/bzip2_1.0.8-8_aarch64.deb
-Size: 26340
-MD5sum: 17e42eaf866536df2bb84c24c748a73f
-SHA1: 6570e0aff066d941a1be1bdd9d1efc273b3dbd9c
-SHA256: 35844bc762a43543549f14824ec86447042f529ab22d0aa83d06f471fcd1101d
-SHA512: a5e43839e4038f573ff1211149dbed5729abe975ca8e39bd1e0686b7346c292f456839a49e01235d32e721568b34eefd22b2ed4fb0e119384124857449f37ecb
+Size: 26308
+MD5sum: cedd9173e2f0f334b0f44f3f59377d08
+SHA1: 0242ea0641e2964901bfec8e5777c8af1206eb77
+SHA256: 72b040c797d3144afe7c3f7fca15222118acf62183f77a6557c85f62dcba07e3
+SHA512: 0382e315e9e3be2056b15942fb1afed713d62229af037e340a2bcea0315bc8cb2e403853aa477378ec434c2fa7298d8d0d557acc1a2c053c89b8f5820224d3fd
 Description: Tools for working with bzip2 compression
 Homepage: http://www.bzip.org/
 
@@ -313,11 +313,11 @@ Replaces: c-ares-dev
 Depends: resolv-conf
 Breaks: c-ares-dev
 Filename: pool/main/c/c-ares/c-ares_1.34.8_aarch64.deb
-Size: 194924
-MD5sum: 71000912b2ab5bde267be1873eae8267
-SHA1: 6e7f03228bd6a0476845317787d358e3677cc01a
-SHA256: 95549a5dc22722180fb1f8f89dd437555c5245904b471893a8e9725af616905a
-SHA512: 1a254fbe0b9c7b938c3203d461ba14968852b964838018cdc13356be868de50e7ad5bf65f549f47f474db86ce41782561e2fb9f8a234ce6a0f91cd22d8c11330
+Size: 194920
+MD5sum: 3dd0e67b0fe08c1288acbc9f01dacc30
+SHA1: 3d42b280f8955db328f870f27bf556ad23c81bc9
+SHA256: be595df8d44b8ae4408166ba06b2f90cf6ad59be71f495b44e57fddbf56c8b2d
+SHA512: c5b813260748e9dbe18b315607e83f74de92bddfe7d2895269bfc8fd75ba7c846eb311b868c72b0245c06bf4042e56dc585d3ab8c2d0c876d047dea7ac0be22f
 Description: Library for asynchronous DNS requests (including name resolves)
 Homepage: https://c-ares.org/
 
@@ -342,11 +342,11 @@ Architecture: all
 Version: 1:2026.08.13
 Depends: ca-certificates (= 1:2026.08.13)
 Filename: pool/main/c/ca-certificates-java/ca-certificates-java_1:2026.08.13_all.deb
-Size: 96184
-MD5sum: d3da8098a268e35b915d832089fbf7a5
-SHA1: d46362edb4393e291e9e303b411162f7e2481796
-SHA256: 43e3b67dd345b2c972a77ae9cab91f6f3c9231cbd546f6df2ebf3b5a605f485e
-SHA512: 1e356bbcd86f16072aef95b1209845c067f90c38f55b666eb261349c5632625028c3bc9657b95fef6c13192b6035e1e621838635a3cd161d9eaf2aba25ce9662
+Size: 96172
+MD5sum: 3eec8fd3d7379a120da3e98501802266
+SHA1: ef8123b80e64b562b856f8f5bf155dbba02485b7
+SHA256: 5a49163234d6a34491ed37768bdbf072b625afe9e0c8891bdf4cd8fc610c8141
+SHA512: 0ec594670a72980d3a4a40836c6d1227d103ac17e7140b76cbe5029c1978bf4cb099d5041e6aad77ea9eec3e26afee3f0d8ca072c87280da9ef1ceee6a0ca595
 Description: Common CA certificates (java keystore format)
 Homepage: https://curl.se/docs/caextract.html
 
@@ -1038,6 +1038,21 @@ SHA512: cd6ae6d6deb2e7efa1a54b82206c2c12297741c67645684a5fe9499ba1688c577a62616e
 Description: Utility converting between different character encodings
 Homepage: https://www.gnu.org/software/libiconv/
 
+Package: icu-devtools
+Installed-Size: 964
+Maintainer: @termux
+Architecture: aarch64
+Version: 78.3
+Depends: libicu (= 78.3)
+Filename: pool/main/i/icu-devtools/icu-devtools_78.3_aarch64.deb
+Size: 210868
+MD5sum: 761bb6870a434b4c2bd49b23f34650c6
+SHA1: efe9bf77bf2a09e03d2170dab4fff662169539e1
+SHA256: 4ec3e5c54fe448b7e9e9a76f711517fa907098c2fa51f4ed3c00ecddbf25866f
+SHA512: 165f9dac17adfc0113f1d9b34fe4a379988fa31e65c1dde88304343df80d21c72834ced8fcc567742bde8f7e0e7b7cc39fd4778a86d7615bfd64ca4bab737374
+Description: Development utilities for International Components for Unicode
+Homepage: http://site.icu-project.org/home
+
 Package: jq
 Installed-Size: 524
 Maintainer: @termux
@@ -1358,11 +1373,11 @@ Version: 1.0.8-8
 Replaces: libbz2-dev
 Breaks: libbz2-dev
 Filename: pool/main/libb/libbz2/libbz2_1.0.8-8_aarch64.deb
-Size: 26136
-MD5sum: ed5a46553a41c1d046476221f808648d
-SHA1: 36b4e195767c7e3b1f591d87d0dfe3d5c6c50243
-SHA256: 2c93d269f6d7a0bcbaa664f0b7d2dbe9c4a40b7e8c2fc66ab06b8f64d7ff7184
-SHA512: f409049b4b2c82ca2a1228eb4ffeec1758dd307513da5592c25d1c6d0d0aee2509d013844fceab30ee0160a51126b75bf140d074058decc1105f84afee7ce3a7
+Size: 26144
+MD5sum: 1377d4f5fb1d559ddb7d0c5897b369c9
+SHA1: 61b609b6dc18ec8b3640c16570f8586f79014be8
+SHA256: fb9648ee3c5a540082a60f784a7bbc9c82591153bf4bb187ceb95f3426f6415d
+SHA512: f52ce4a1518781b6dfc5ed9ae7d37c41617fc5349926e65720e795d075af28ee96510aa887ddcc5d46453d27ca1051facc1b1c494ecffd900b63119cb20f151b
 Description: BZ2 format compression library
 Homepage: http://www.bzip.org/
 
@@ -1373,11 +1388,11 @@ Maintainer: @termux
 Architecture: aarch64
 Version: 29
 Filename: pool/main/libc/libc++/libc++_29_aarch64.deb
-Size: 334728
-MD5sum: b4569ab5220d29e424154b9f43012858
-SHA1: 1153186c7cc7b3544b10d1babb7f194a579dbd7d
-SHA256: 0a61bd58e3fe2ffc56cdacbd5828765881d64da9caed36db3f874b7d2c80c251
-SHA512: 558156267e08c67a413d7902d6538d01d8c011c45c4b144de0c8555e51570c53b7a112cb4d5d279e94b0964741d8bcacdc572a0adb9e592f930a928d8cbe0fcc
+Size: 334720
+MD5sum: 454aa9b50b898d1217a985e2700c7f20
+SHA1: 235abf2d54aaa61959fc90db4371d8569ca0c3a9
+SHA256: 5a1de1be330bcbfb54789430b01f406cd3bb56da287828ebcb2f4dddf8d5e387
+SHA512: 3e78e6f7cc88d1db216ab277e95d2e762db25445ceb4f31560d072465c03ce6eda4302f669ff16a2499614711bf3130afb80618ef11dcf8454177cc3249bb810
 Description: C++ Standard Library
 Homepage: https://libcxx.llvm.org/
 
@@ -1776,6 +1791,38 @@ SHA512: e020f006b13e70cea6f23a308125c0216462b78d5d5c3c29200db15272f497c374840937
 Description: Static libraries for libiconv
 Homepage: https://www.gnu.org/software/libiconv/
 
+Package: libicu
+Installed-Size: 43632
+Maintainer: @termux
+Architecture: aarch64
+Version: 78.3
+Replaces: libicu-dev
+Depends: libc++
+Breaks: libicu-dev
+Filename: pool/main/libi/libicu/libicu_78.3_aarch64.deb
+Size: 10239684
+MD5sum: 7c9570db37083f489a1f8937f5925b14
+SHA1: faf459521517ef5bb344b741fb0489d9b1542244
+SHA256: 1f2bf1809a9aed0f838fcaec23e945c50c5b6a7f36c6ac483a991350c758fc79
+SHA512: 5334ecc08f8bff245b57adbb20e0cbce02b2cdfa3875dd0d960e958909c6605761d63924b6d046f624e460f84018dade982a540dd899edc2e35d32653d3a4012
+Description: International Components for Unicode library
+Homepage: http://site.icu-project.org/home
+
+Package: libicu-static
+Installed-Size: 45140
+Maintainer: @termux
+Architecture: aarch64
+Version: 78.3
+Depends: libicu (= 78.3)
+Filename: pool/main/libi/libicu-static/libicu-static_78.3_aarch64.deb
+Size: 10028152
+MD5sum: 7aeab18b850ac05e98780110e539befa
+SHA1: fee54b1e96520cb749f931d4cce3f5833b7e8321
+SHA256: 4fe4cb77002fb3f3b020eb79908d26c13db5f9f4d918ddce7db37e6aab38ddf3
+SHA512: 32bcc4985ee785b893bb9dce14ac00a2b76b44fe8d5e424ffc2be6af7c269cdc4cfb1631ebc9b85e59542d24012ea426120061c80880f0a6d78c4bbf3ba5cc25
+Description: Static libraries for libicu
+Homepage: http://site.icu-project.org/home
+
 Package: libidn2
 Installed-Size: 428
 Maintainer: @termux
@@ -1865,11 +1912,11 @@ Version: 5.8.4
 Replaces: liblzma-dev
 Breaks: liblzma-dev
 Filename: pool/main/libl/liblzma/liblzma_5.8.4_aarch64.deb
-Size: 194776
-MD5sum: bedffa4df443f62cd72bb2112b007548
-SHA1: 4b307f1719854b965aadd2bdd61f0d7df160814f
-SHA256: 82bd9304ff86a373c9a3e3a5ce8ba0442b982963c9cbe3bbcc6a1ae64cfff3ba
-SHA512: 1e5de0faba90418e87bf66b8001e695a7850e79c80826b179324e9762d7970423ec6e3919d152789017eab5f9ecc6bfc796112e119542ca7deac409516fee0f0
+Size: 194840
+MD5sum: 32712aec05306ea128d92e2346715839
+SHA1: 5db8490b31becfe3e63d18a68d42405f9b8d4335
+SHA256: e9c3607ec867df8ba0bbddd9bbb40d8456c37a91901f39574636a5bec2bea3fd
+SHA512: 687f6255a912b96ed5dd671a023eaad389e1ef8017e25aab1d0d812330ad0a72322a21b259adc836d0f39a126be1be44e21380756077e181680bcc6c2189e8e7
 Description: XZ-format compression library
 Homepage: https://tukaani.org/xz/
 
@@ -1880,11 +1927,11 @@ Architecture: aarch64
 Version: 5.8.4
 Depends: liblzma (= 5.8.4)
 Filename: pool/main/libl/liblzma-static/liblzma-static_5.8.4_aarch64.deb
-Size: 89908
-MD5sum: 1bfe90b3914d1943497b629006deb2df
-SHA1: d1c5dae5110c12dd5332311c6a6252381f636971
-SHA256: def06825f642b474cca4248bc574ea08c6d75b5fddb5d7ad7e3b6cd04b26ec4f
-SHA512: 98c5ae627e7ea696da382f7f090a27c8b5bcdaaa62398cee6eeb1ea689fe5c697fdf85274700d0e1c5f8ebb8b835bdabbbfc662591c22b23849c9da06e9ea354
+Size: 89912
+MD5sum: 61454b4b6b56e43083a0420f3638a11d
+SHA1: 0b7575bb5504344792026a83a1539b0441279383
+SHA256: d27308750dbc79b37193f0391cefcad8847b44e06885f875646d9fcd4958d303
+SHA512: 482dde7fcc327cb8dffec4e6ffdcd4a3b49462d4775ab19ef8330991273a10a09d975cc6bf1e3be1ac675d2ac4c7eb4ade61ca4b705a916e7cf6121b84c955fc
 Description: Static libraries for liblzma
 Homepage: https://tukaani.org/xz/
 
@@ -2814,11 +2861,11 @@ Architecture: aarch64
 Version: 6.6.20260307+really6.5.20250830
 Depends: ncurses (= 6.6.20260307+really6.5.20250830)
 Filename: pool/main/n/ncurses-static/ncurses-static_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 154200
-MD5sum: 9d42d19be217922751b30154fcae890d
-SHA1: 15f8f3a57d59a2e538037ff292e8adfb3148f9bf
-SHA256: 31a535efd88753f765f565c190aabda73f8dda457b08de4f49911cf95ec5189d
-SHA512: 47ef17d8b7402c53d93ac0e6bee437a7aafb67a798b761b7a2b3c619fefc8c99d7d74431b33c2b7c69e23e232a6ad93c026609355347e85c73a6d17a5246d96e
+Size: 154184
+MD5sum: 286cb37d91986adb1b43b2c125e34020
+SHA1: 698ed4e427fae08b62b0f32f8d99caeb64481d3b
+SHA256: c75c2158c125154f6f805c4c7b7dd8edc67bba2aed0bd880b05c5c7fc7cf641c
+SHA512: 74e9e29bddb0d6e180846c3c703c975466f5b31b6d0bedb43ca50b4499295748d98918feb4e3980c395cbc5730de10070c459981d43fa9d11cf816c2a1b9b5b9
 Description: Static libraries for ncurses
 Homepage: https://invisible-island.net/ncurses/
 
@@ -2846,11 +2893,11 @@ Architecture: aarch64
 Version: 6.6.20260307+really6.5.20250830
 Depends: ncurses-ui-libs, ncurses (= 6.6.20260307+really6.5.20250830)
 Filename: pool/main/n/ncurses-ui-libs-static/ncurses-ui-libs-static_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 39564
-MD5sum: 201a2b9ff648aad9768a7118927054bc
-SHA1: 5f30aece5fb20029295462fb1dc940bdeffe5e4c
-SHA256: 5feb81ec3a97212c5c13bc0d133745882c0b638d56afb3456d68da9bed7e751f
-SHA512: 91c1171c6ab6e95ae1fa13f0bacd99bb813da4f097946d2859d1bd2536ad81f9bcee778ce6e14e800d814856e2b14caa1f347d2cb63d080e678e0acb8f45500c
+Size: 39548
+MD5sum: e11bcaf0714414cad8bcfa83b43d2c3f
+SHA1: e536d365a17a1fc122403cf1b9e0eca5009e73e1
+SHA256: d52acd421613fc47afd07b33e884071d0afc72c0a5f9aefad3f07e32c781a91d
+SHA512: 4e4036afb52cd7a18fabf32fe6e37a750e0f20376dc80eb6a42f1abd008b1c3898fb209179e94f6de219f8aed708bc406ccd97582b13ca6960827c42d6f71b56
 Description: Static libraries for terminal user interfaces based on ncurses
 Homepage: https://invisible-island.net/ncurses/
 
@@ -2898,6 +2945,46 @@ SHA256: dd07d8b99c34867917b69f09d617c0557aef11df8c7269fceaef39072f150530
 SHA512: dc1a1286e93b8eb5e88b5453ec0008bb920984c9a4e268ee8687d5abc6c54887bf2100336dcb3315df83337b8f617d3b41c3488ab3078ba481208a3bcea58e0c
 Description: Lightweight HTTP server
 Homepage: https://www.nginx.org
+
+Package: nodejs
+Installed-Size: 50488
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Architecture: aarch64
+Version: 26.4.0-1
+Replaces: nodejs-current, nodejs-dev
+Depends: libc++, openssl, c-ares, libicu, libsqlite, zlib, libffi
+Recommends: npm
+Suggests: clang, make, pkg-config, python
+Conflicts: nodejs-lts, nodejs-current
+Breaks: nodejs-dev
+Filename: pool/main/n/nodejs/nodejs_26.4.0-1_aarch64.deb
+Size: 10338460
+MD5sum: 35c96648c177fa0cb68ee1a6bb051c16
+SHA1: 2f477bd049902f17af7cb664fabea2cd69d1b767
+SHA256: 5a0b78b22984dc8346f351b17bd4b5647004d6ef905fdf7a405a8b97c068ba22
+SHA512: d6cc4dbf5d0e15db754ea8ed8fb2d52899a7bb878b8fcc99cbac664c1bf98160940b99202098c072c02aa15b339c7173a5e5a2ed0b4c1e348f5c0b109f72a5be
+Description: Open Source, cross-platform JavaScript runtime environment
+Homepage: https://nodejs.org/
+
+Package: nodejs-lts
+Installed-Size: 46920
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Architecture: aarch64
+Version: 24.18.0-1
+Replaces: nodejs-current, nodejs-dev
+Depends: libc++, openssl, c-ares, libicu, libsqlite, zlib
+Recommends: npm
+Suggests: clang, make, pkg-config, python
+Conflicts: nodejs, nodejs-current
+Breaks: nodejs-dev
+Filename: pool/main/n/nodejs-lts/nodejs-lts_24.18.0-1_aarch64.deb
+Size: 9759192
+MD5sum: 6bea23a80c943f1af18593aaa19b5f53
+SHA1: 16b74fbe4ab7516903304e559e7378b6866c361d
+SHA256: 05e1f9ea6684e33f3fbfc2a21765742582834e70a00f2edd5f7029eabb8a9785
+SHA512: 1a877cbab9b82954718bdd0d647236e33d4c8695581ed17c026f74afb3597bfc0b27078ce451ab486fb7c3b5056e8731dfefa15b91c9593f8d0fa8f2d1d7cb95
+Description: Open Source, cross-platform JavaScript runtime environment
+Homepage: https://nodejs.org/
 
 Package: oniguruma
 Installed-Size: 688
@@ -3275,11 +3362,11 @@ Architecture: aarch64
 Version: 1.5.7-1
 Depends: libc++, zstd (= 1.5.7-1)
 Filename: pool/main/p/pzstd/pzstd_1.5.7-1_aarch64.deb
-Size: 41848
-MD5sum: 81f11f0767447d7e34778f3eaf7e89ca
-SHA1: 2cfbbb23ad70dde6e7abe9333100234dabbe8e4f
-SHA256: 03e7870ac4b83f284f7e4b10b9a87210e65264040b67b94ab49284ebcf667f4c
-SHA512: 86208b5abf2d15ded325a2a6897fd2a372fe3a4161daa3f899e44c5b487e69d8406ba9c5d29e050319d2cc1cf0346df6e0cb3f9778e9f22e643a478dd3a8471c
+Size: 41792
+MD5sum: e1276a53aeab1adf700c4feeecd0f7c8
+SHA1: ef0448f4f605a7e5e61fcc5c7495b99281b294fa
+SHA256: 7848b7980fd42ae78305fa1c8f7d7c61ad6cbeef2fbcb71ff98cb9555f3592fb
+SHA512: ddefab96b03f28ef536458c18ae9a999cd037b1bf6b558a2b25b7a82ce9a275ca4b179d30625ffa204dae3935e84cfc18a4eb2ec8d8c5593799e6069b64027bf
 Description: A Pigz-like tool for Zstandard
 Homepage: https://github.com/facebook/zstd
 
@@ -3502,7 +3589,7 @@ Description: GNU tar for manipulating tar archives
 Homepage: https://www.gnu.org/software/tar/
 
 Package: tcl
-Installed-Size: 7732
+Installed-Size: 7736
 Maintainer: @termux
 Architecture: aarch64
 Version: 8.6.16
@@ -3511,10 +3598,10 @@ Depends: zlib
 Breaks: tcl-dev, tcl-static
 Filename: pool/main/t/tcl/tcl_8.6.16_aarch64.deb
 Size: 2261772
-MD5sum: 9a2051d4ee00bbd0917143a9ad0634cc
-SHA1: da6b5cb48523895a33003b77825896c7ad74040a
-SHA256: c0cefdebf94e083fcf51341a2800d7ddf0d1c8387c23a18cc12f81381b5e7aba
-SHA512: 8da493cac16d2b4b9b22fe18438514f4927de9018aa9c060ead6a5abab015d550da98c39f3fcdc8ab4c02ef3518cd21f102ae3e60fa29dcb79e49909a4768b24
+MD5sum: 0e90c5c96e733fca6b38d68577057db2
+SHA1: 075a2b0d7a943322cf0258ab600e8595a14b9f3e
+SHA256: fd78c73e17573f2499e6f9dd006483b39dfb2691bc01eba6abd8324043ce616a
+SHA512: 5a05c01d7705dbda12caae08b35eeb0f7c53f2f05b9b6f73e6dd6d3c06778b4cf7d942b4320ef4915c32dc1286e74d896b5df9e5627ffe579c2063127f7fbfce
 Description: Powerful but easy to learn dynamic programming language
 Homepage: https://www.tcl.tk/
 
@@ -3741,11 +3828,11 @@ Architecture: aarch64
 Version: 8.6.14-1
 Depends: fontconfig, libx11, libxft, libxss, tcl
 Filename: pool/main/t/tk/tk_8.6.14-1_aarch64.deb
-Size: 1756244
-MD5sum: 82fde9c0815785b08d798b789fb53f79
-SHA1: 138f757595d4b75a040f44afba3ecf984108261f
-SHA256: 1f8c75e370dd0fa55e494df8024f118e0d6e734820bd6ad86c566aa855249c60
-SHA512: b230dce95121e805e87cf1bef2d342fbc89fa44d3dbd9226a7cfe42ecf5c91fc721d9d4e4a56562941a7c6af905fbb9de32e5e1736020ff41e70e037acc372c2
+Size: 1754968
+MD5sum: ab79012d2afb4cf536c9e9811164ef69
+SHA1: 21913f435f03fa9521d04504fed9d83ee35cc936
+SHA256: 4eb2e70e0a1d6ee37c809cf15b2fd60b8864d92b1de93cba07749288d8c9d161
+SHA512: 027d27eae73dcfcdfb2372e187c414558ad5f120dcd48d10500b895c9fbfaea1e162320ee76d984956b3625dcd5d983be9db73ba450508f2a20cab79fd63f399
 Description: A windowing toolkit for use with tcl
 Homepage: https://tcl.sourceforge.net/
 
@@ -4015,11 +4102,11 @@ Architecture: aarch64
 Version: 5.8.4
 Depends: liblzma (= 5.8.4)
 Filename: pool/main/x/xz-utils/xz-utils_5.8.4_aarch64.deb
-Size: 71328
-MD5sum: 2abb71b4b48c0f9084ec9dea96ed8af9
-SHA1: a53bf30856f4f553ca286f4febfe381417d2c1c4
-SHA256: 9160d4fb82928fa5df7d28c437dd14295ab7a95140579dc00cf000920fbdaafd
-SHA512: 26b7a86e8e882d63542e22f8bc8611cca5175c754f4248ccce4b2ccb778c143330fd35a022809133e87577de1ccec7607449ec454899e028e9d470bed640d709
+Size: 71316
+MD5sum: 91d3c9b80f9a817f28c4ff504a243359
+SHA1: 384a2a575fde7e6c42094ba33c738bad0e99e98e
+SHA256: 3772e6d0d51d5d2d4a1a4065ee8d53fe0743cd14f86a8e167f6407032a5a505d
+SHA512: 576122e4be169b9156adfab3f1cb8b62eb4c2e63904501deeb68ee69d007b8d2d396706f41c7d7299182db5bfbf1523dbf967b94c9bb32cfa023599e811a9f66
 Description: XZ-format compression tools
 Homepage: https://tukaani.org/xz/
 
@@ -4063,11 +4150,11 @@ Replaces: zstd-dev
 Depends: liblzma, zlib
 Breaks: zstd-dev
 Filename: pool/main/z/zstd/zstd_1.5.7-1_aarch64.deb
-Size: 359408
-MD5sum: cbdffb3111d97cbf203b38d202fac619
-SHA1: 1f021642639978087d59a61b41149e874d42ced0
-SHA256: ed4f9abaed6395a9373274786e995f0f60f6933db9fb621a6d84d37f3e88996b
-SHA512: 240b409f9186f848f8ff1bea66a355850286d3d55e7957af13e6d219d1c5f3c891b2c9ef5b42149d4f98b18c37c04a1d10ce343c71f757545856e90dc9e5da83
+Size: 359464
+MD5sum: 28d5f3a3a100a5a828378dbf0cfee465
+SHA1: 076be3b338087a4729426a1682b04aca70887470
+SHA256: c2ede5f3e7d91c04ccbe88cf484209c4cd718b46f339bbd557fa2efb6304724b
+SHA512: e85cf8799ab210dfdf85f92897161fb5028b9564f2ef85b9db9cc6023e496b299e60acbdbd06506662fca0d141ccd901822b83f0566ee5df1bcd0199f7c6c124
 Description: Zstandard compression
 Homepage: https://github.com/facebook/zstd
 
