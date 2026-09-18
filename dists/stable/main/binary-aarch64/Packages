@@ -830,11 +830,11 @@ Depends: libassuan, libbz2, libgcrypt, libgnutls, libgpg-error, libksba, libnpth
 Suggests: scdaemon
 Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
 Filename: pool/main/g/gnupg/gnupg_2.5.17_aarch64.deb
-Size: 1409476
-MD5sum: 9ddf8a78ea90ab4a3a64e8a3d381bb56
-SHA1: 4d1092c708e36af2190036f5a64c71e2ba13794b
-SHA256: 4fa23ecaac35f073e8686732ef6c15490609f4c4c2e52f566790ed35d38dd8dd
-SHA512: a2af5ecf92b8ac4a4462159fb496c53cb2ba0437149b7716edbd570176e26bbae83f0ee55fd0fc30d1c60d00ac3f8e8a3f555541c6143829c3291181f99f153d
+Size: 1412840
+MD5sum: d731008a57072c726d84597ccf7b3aa7
+SHA1: 92bf3af666a2f07199c97f587d9c5fc63d9f3132
+SHA256: 65525949ca8a440a321ad760545d824a49b321f72738da276eab342995529190
+SHA512: 708eaa445e1d25f6c2e729d5fd4e1aa6f6f13cfb137f6003238dcc15fbdb41f11550e804fce115987a3ca066ada514e74bf34c136aad1c45253b3b44cd9c99a0
 Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
 Homepage: https://www.gnupg.org/
 
@@ -891,11 +891,11 @@ Architecture: aarch64
 Version: 2.5.17
 Depends: libassuan, libbz2, libgcrypt, libgpg-error, libnpth, zlib
 Filename: pool/main/g/gpgv/gpgv_2.5.17_aarch64.deb
-Size: 188324
-MD5sum: 578daef5140bec703634008d99592db3
-SHA1: c795c0bf9277e6b072ead0b4c2e1938d3a8f8da1
-SHA256: 2e0b443f2dbd0c195efddc3c2dc841f6bd17b5a48f486aaf7d3e07ea520b7143
-SHA512: 72850dddf5997cc4b7c85249a9cec907c6acb7eba496aa8d6adcb204a99b4ec053a434c4e0db188375c8a61c2be2b686697bd898e769062a1cc49096b6422d5f
+Size: 188308
+MD5sum: 3203d1ff49eadf4fa3ea732e33fbcc71
+SHA1: d1dc132b3735189ff795b2f2c848d49083d4472a
+SHA256: e4a12ac9e94b3869c5296b90f2419657a888314d76057d3866ad72995ad6827d
+SHA512: 0f756ad4af8b71edaea76c4bef3d7b32e4f13bcb62384005ac41896d59ca1df7a6bcffc23b64979cf7b5a7c62f76c79a572f115c16339291949fca903eaee18b
 Description: GNU privacy guard - signature verification tool
 Homepage: https://www.gnupg.org/
 
@@ -3227,11 +3227,11 @@ Replaces: gnupg (<< 2.3.3-2)
 Depends: libgcrypt, libksba, libgpg-error, libassuan, libnpth, libusb, gnupg (= 2.5.17)
 Conflicts: gnupg (<< 2.3.3-2)
 Filename: pool/main/s/scdaemon/scdaemon_2.5.17_aarch64.deb
-Size: 183864
-MD5sum: f343fccb82ef53c8b802d1712192c3e7
-SHA1: f1f7a84bc6ab5335cd47b0c37be9451dcd3a9262
-SHA256: 13d41cdd32153b3f2654ca6c597d9e4452125d194188a4b47a58270c4c53dc21
-SHA512: 96f2ec59165d2191d7aa06687105feab836a06b8ed339723cb730c2cb0e10072c307670736594f833a675817c1c2188e1b15b81ecabe141284ebc4587a0112ba
+Size: 183856
+MD5sum: f2d0930e9518571c75f49e03b6f64197
+SHA1: 6a0346c40067933273d7fcc7208fb0d1d76c127b
+SHA256: 1733986aa1243578e9a471c037ce14780f88f736fd75c49dc6331f66c84b87b0
+SHA512: 1716a98e498df49ead6a071c9174c032916aa072d55b2a7dd109463afec57280f188fdf8aa28015bfe5a15f1bb0d87d420d1ec2ec19195ab6f37927da041d4d9
 Description: Daemon invoked by gpg to manage smartcards
 Homepage: https://www.gnupg.org/
 
