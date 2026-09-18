@@ -273,6 +273,21 @@ SHA512: fccbf81847af812d27a11dcfc7a594e77b9b50737783c06d16e735c880afee089ee1d881
 Description: lossless compression algorithm and format (command line utility)
 Homepage: https://github.com/google/brotli
 
+Package: busybox
+Installed-Size: 1032
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.38.0-1
+Depends: libandroid-selinux
+Filename: pool/main/b/busybox/busybox_1.38.0-1_aarch64.deb
+Size: 471908
+MD5sum: 651eae2602483028f6c557bd21dd74ea
+SHA1: 2fd1114c4365491cf87fae04f101f279893060b0
+SHA256: 7f0d2e8ff4729e8add40953e27cbe46987f509490098c5d04ae7f93961feb162
+SHA512: 20bf86310791fafcb139ddb6e3f1297cefe612f1a0fc07039be827a51e36eaeb48e5b4e4e36462df765664286d5841fbc2f83f6a1982d9ea0365632c53a08883
+Description: Tiny versions of many common UNIX utilities into a single small executable
+Homepage: https://busybox.net/
+
 Package: bzip2
 Essential: yes
 Installed-Size: 120
