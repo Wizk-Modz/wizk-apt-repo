@@ -201,11 +201,11 @@ Architecture: all
 Version: 2.18.0
 Depends: bash
 Filename: pool/main/b/bash-completion/bash-completion_2.18.0_all.deb
-Size: 194192
-MD5sum: 8a1ff8070a6d6187774de9835844c1e5
-SHA1: e87ddeda0135ad7f4c3b9b15503a1e3941096698
-SHA256: a5a5b14219b6231a56d364a937c27959e89902bd270eb99920803d2b5d46f6e8
-SHA512: 18e9e8854adf7109f11a1ab8c3fcf93c4701d74d439630b88c5273c28a255de4e551737c0e8f9cb2118b2f5fa6e84ad4ec61a6be886dddff294745bd78268d44
+Size: 194128
+MD5sum: 5f5f51cd93b77d8dcbd50adebd96a4bd
+SHA1: 2453f73e188434ab2eabf556b2682e58300b413e
+SHA256: 374e46344f3ee9e859fc469bf0b64c438a2c08c1d6ddcff8a22071ebc8cfe0da
+SHA512: c5ae7b6316fe6b4c1f89d06b0375c0d7847a286c82005c63f9728b31e0c4693c714a987d5f7b45a8934b71a047aaea35706233fdafbb497abc387b905810966f
 Description: Programmable completion for the bash shell
 Homepage: https://github.com/scop/bash-completion
 
