@@ -776,6 +776,20 @@ SHA512: 2f0e291ff1399eace31542c6e8a81af757f3a8b404e4fc90065019a06ad2208bde097673
 Description: A graphical interface to Git
 Homepage: https://git-scm.com/
 
+Package: git-lfs
+Installed-Size: 14036
+Maintainer: @termux
+Architecture: aarch64
+Version: 3.8.0
+Filename: pool/main/g/git-lfs/git-lfs_3.8.0_aarch64.deb
+Size: 3750180
+MD5sum: bb4d167eb00bc89486a121208159d68c
+SHA1: ad661133cf5ef5aedcd777ab446ae16357a0b6b2
+SHA256: 9ff2b2bea1151b7c993a50c0a08194eda6c2d2f2866f314b90a845ee31a1465c
+SHA512: 08525a5901f33ee11a54299e9adf3126a82f5d26ad0c7fe2b2b082968757924872cd917e05dbce746fda4e2dd6c2ac19c06c81c8e302ff5df4b3bcb48ccf202f
+Description: Git extension for versioning large files
+Homepage: https://git-lfs.github.com/
+
 Package: git-svn
 Installed-Size: 320
 Maintainer: Joshua Kahn <tom@termux.dev>
@@ -790,6 +804,21 @@ SHA256: 3573863a14b1311d946a82f93a17c5f751e64794e509500decf8a42c43c4fdb1
 SHA512: 7ef9d5bf14b27482254821994d5256299f1a94c8074e6c70b261304e1a29f14b61fd1a4dd9e9252c513c150f987e8d52a17a19d7126dd15cdcdce7f80d3399a8
 Description: Convert between Git and Subversion repositories
 Homepage: https://git-scm.com/
+
+Package: gitea
+Installed-Size: 128100
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.27.3
+Depends: dash, git
+Filename: pool/main/g/gitea/gitea_1.27.3_aarch64.deb
+Size: 32739104
+MD5sum: 19ec331948819e3e2fcc70d748294a66
+SHA1: 67d21f2c765091d03f9981854962542aee5e1880
+SHA256: 6d4d52c44f9ca64c1dcf8cf8a7981f0071a268f380e3002fcdc11c20d48c9d09
+SHA512: 26da4cd3768fa49dfef20b3757481d7c460582be7f8f59fdb17c2ce232762b8c6c84f5d2ebf3d67072c66f631891a0a937cd90ff64058bf6a70769b5f9055150
+Description: Git with a cup of tea, painless self-hosted git service
+Homepage: https://gitea.io
 
 Package: gnupg
 Installed-Size: 5544
