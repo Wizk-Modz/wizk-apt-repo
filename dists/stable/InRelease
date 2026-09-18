@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: aarch64
+Codename: stable
+Components: main
+Date: Fri, 18 Sep 2026 08:48:58 +0000
+Description: Wizk Termux fork APT repository
+Label: Wizk
+Origin: Wizk
+Suite: stable
+MD5Sum:
+ 38a64806ea02bd78aa3b2582a100253a              179 Release
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-aarch64/Packages
+ c09afc921b662f80d2c4c840a5e9b086               29 main/binary-aarch64/Packages.gz
+SHA1:
+ 31257149109cfa7a604badd2e8b4594f4785d99e              179 Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-aarch64/Packages
+ e2f5c29ccfb03ff32af4b9bde639fc5ad69a7c3b               29 main/binary-aarch64/Packages.gz
+SHA256:
+ 9ca666cf54134a23fa2be6d61c4951a1da79498b6bb47ce322f54c6d39f8fc0c              179 Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-aarch64/Packages
+ 8f86f713feef34e01504f31d0d0429a45f24323897e7cba3c525a4432f22d144               29 main/binary-aarch64/Packages.gz
+SHA512:
+ 0ceada905cb02859324415020d391e5aa6b87de301ccb2a6a4c1504a06fe124b09c46487011512a1f08a659068b8a02464f238591fbbf5cfee4fa2a2908b511f              179 Release
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-aarch64/Packages
+ 30a99cdb60fa8d27371c67904507ecf0cf8f86f05bca74cc480cf02b070221b063e48f724416c583f8118a0e841c0f2f5be88af85f5044215a37c56d378cf1a3               29 main/binary-aarch64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEybifb/kfzLAbU35j7JeSaXFhoN4FAmqs+voACgkQ7JeSaXFh
+oN4H6A//QOMXflkwCANucSeBHa9ThpxtZas5iRPh5eDLz/WWkJGGZkjkUM9OJfZH
+prhHxKfZy9+MY3Paz0thib9n9o0s+fQRbqFRGnd+oPIil7Yk6+uY4OytaKiLOyap
+USIjfc7y2g+HkQ0kUciDpzXf3ZhWR7IYHzZLHuroMImViRMBOhb17M80goNBjKoL
+uH5k0aR1hrU3ehniRWwjpGMTEFN6joK7+4rWj9Infdr1JG5HXlfieqngUZrnS1L/
+Fd8Yy5vG61wPzicLxvFjVbqNb0zL45+79mH3x17tFU/b/Gw1YeMf+MyTyW7U9kCg
+r1U73zZ8qH1tKA4OC4QhJbPoVRsL9L5Zccrr1SxgR0cQbxvN9ucJ+qpujFz0+kU/
+SaqqOqIBi4KN0LrNOaq2gPySLCk45ID9ClZSM3Y+dCTd5mc/VRciZLaNuRrqRZVb
+RDmVus6vyiGYBEzxwjPLnOubygkWUrfEy5M2AsUNBicWQZlVzWAx3wuAMHjq9FOB
+ZjUWCcUdcXrqNpWx3VtZedNKZjXahRXEPSaHY9Idt34OqhITWKovyvv5hhvU3tiG
+tVQOwzWLRfmeCMxdQbvNaUhfiwLcqimXjS73wEnAopD7mkRuCphsVfm1Pncloif4
+KIV6V8sKAqG1cTODqtv1mwKLzrJlhNce5NC7ICEYzEAV2DPTPu4=
+=1urN
+-----END PGP SIGNATURE-----
