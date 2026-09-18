@@ -1,3 +1,20 @@
+Package: apache2
+Installed-Size: 32780
+Maintainer: @termux
+Architecture: aarch64
+Version: 1:2.4.68
+Replaces: apache2-dev
+Depends: apr, apr-util, libandroid-support, libcrypt, libnghttp2, libuuid, openssl, pcre2, zlib
+Breaks: apache2-dev
+Filename: pool/main/a/apache2/apache2_1:2.4.68_aarch64.deb
+Size: 5253428
+MD5sum: 5fc6ab0e1f5002cd65c9dc8e9e784a86
+SHA1: 8d1e64d9bb99b743d6584bde50ca67cb53c10514
+SHA256: 050346face047845937090dbab4b30f66cc0330cd57847f449ac20c8d6c15f00
+SHA512: 77e09be05798e89360c0ab1e1e6171391e50de8e2cadfb7db7adda4f7dfc180c7ec55f4428463b10e942d80a376ccbcbc789556da4fe2a0f0301bb72c03ffba8
+Description: Apache Web Server
+Homepage: https://httpd.apache.org
+
 Package: apr
 Installed-Size: 1268
 Maintainer: @termux
@@ -112,6 +129,21 @@ SHA512: 6beb28afef6dfe98958aeb2596419eeedd1370ed89d25a2eb5ba1d5a3819613383e33bb1
 Description: APT transport for anonymous package downloads via Tor
 Homepage: https://packages.debian.org/apt
 
+Package: aria2
+Installed-Size: 2696
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.37.0-3
+Depends: libc++, c-ares, openssl, libxml2, zlib
+Filename: pool/main/a/aria2/aria2_1.37.0-3_aarch64.deb
+Size: 679640
+MD5sum: c83f6d61c748a3ccb124360ea67ed0d4
+SHA1: 42f6d28e80df8cdf75c62cbc79ac59fe971be299
+SHA256: 2c15c257da6ee03d996a84e7f2dbf27cd6676b9a4579a3209de4933a98453bf2
+SHA512: 795fb6adfc285bfa1a05034ce22077f59264fea0e4c2a4d6f680f77ee0653e02275ec66203daaf10c5c5c81654f2d54b1c72e57509a36e23a652304a5cb53202
+Description: Download utility supporting HTTP/HTTPS, FTP, BitTorrent and Metalink
+Homepage: https://aria2.github.io
+
 Package: attr
 Installed-Size: 264
 Maintainer: @termux
@@ -225,6 +257,23 @@ SHA256: 72b040c797d3144afe7c3f7fca15222118acf62183f77a6557c85f62dcba07e3
 SHA512: 0382e315e9e3be2056b15942fb1afed713d62229af037e340a2bcea0315bc8cb2e403853aa477378ec434c2fa7298d8d0d557acc1a2c053c89b8f5820224d3fd
 Description: Tools for working with bzip2 compression
 Homepage: http://www.bzip.org/
+
+Package: c-ares
+Installed-Size: 1104
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.34.8
+Replaces: c-ares-dev
+Depends: resolv-conf
+Breaks: c-ares-dev
+Filename: pool/main/c/c-ares/c-ares_1.34.8_aarch64.deb
+Size: 194924
+MD5sum: 71000912b2ab5bde267be1873eae8267
+SHA1: 6e7f03228bd6a0476845317787d358e3677cc01a
+SHA256: 95549a5dc22722180fb1f8f89dd437555c5245904b471893a8e9725af616905a
+SHA512: 1a254fbe0b9c7b938c3203d461ba14968852b964838018cdc13356be868de50e7ad5bf65f549f47f474db86ce41782561e2fb9f8a234ce6a0f91cd22d8c11330
+Description: Library for asynchronous DNS requests (including name resolves)
+Homepage: https://c-ares.org/
 
 Package: ca-certificates
 Installed-Size: 232
@@ -2634,6 +2683,21 @@ SHA256: 6354ab58b89a58e728a4fb312b00c509d4289879ee7af1a5ae39fdb3c9cff5fa
 SHA512: 6ed74130714184e214d8b782b99d98206440237addcef0735d815fd5d3663cb74b5331bb79a9d0d4b41a6c0454bf529b7ee3772c707cd1aeefe016fe0c47cb1e
 Description: Low level cryptographic tools
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
+
+Package: nginx
+Installed-Size: 1620
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.31.5
+Depends: libandroid-glob, libcrypt, pcre2, openssl, zlib
+Filename: pool/main/n/nginx/nginx_1.31.5_aarch64.deb
+Size: 448040
+MD5sum: de9595a88de7222d9d39835a305c7e19
+SHA1: 8b2f433403e4855c69a496ab466eb4645c404981
+SHA256: dd07d8b99c34867917b69f09d617c0557aef11df8c7269fceaef39072f150530
+SHA512: dc1a1286e93b8eb5e88b5453ec0008bb920984c9a4e268ee8687d5abc6c54887bf2100336dcb3315df83337b8f617d3b41c3488ab3078ba481208a3bcea58e0c
+Description: Lightweight HTTP server
+Homepage: https://www.nginx.org
 
 Package: oniguruma
 Installed-Size: 688
