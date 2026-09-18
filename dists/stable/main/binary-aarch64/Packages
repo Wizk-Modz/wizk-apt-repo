@@ -1256,6 +1256,37 @@ SHA512: 01d3ad15550c2fb3262472241736ebe78fc4acaa9a6dd0fb8135448480a6ec70924495bb
 Description: Android fork of libselinux, an SELinux userland library
 Homepage: https://selinuxproject.org
 
+Package: libandroid-shmem
+Installed-Size: 72
+Maintainer: @termux
+Architecture: aarch64
+Version: 0.7
+Replaces: libandroid-shmem-dev
+Breaks: libandroid-shmem-dev
+Filename: pool/main/liba/libandroid-shmem/libandroid-shmem_0.7_aarch64.deb
+Size: 7232
+MD5sum: a62116f09e417cb16c4b6a6be7b647ac
+SHA1: 9aaaac493870eb6573d4294ccbfa40d9241d8432
+SHA256: 7c39c42eb3eff2de3ca5e207179a9afc724d1969918b202284f05a367f1aad76
+SHA512: d4c2acb845542b97328adadc9ad4b1d47ba7489d0f61d25ad62ea66a3be52b364f367268221cf2a8d16f7ff5d1580f95d40204c62da21104a8b71a7303d27fce
+Description: System V shared memory emulation on Android using ashmem
+Homepage: https://github.com/termux/libandroid-shmem
+
+Package: libandroid-shmem-static
+Installed-Size: 48
+Maintainer: @termux
+Architecture: aarch64
+Version: 0.7
+Depends: libandroid-shmem (= 0.7)
+Filename: pool/main/liba/libandroid-shmem-static/libandroid-shmem-static_0.7_aarch64.deb
+Size: 6056
+MD5sum: ed160cb1c746d06c8ca831cdd9c83e71
+SHA1: 32308254c1f271b87b04ef6f1f8646b27ec00976
+SHA256: 994f2c385e67fbf26c53310be09053c13e2ff3275f8ccbd40ff9e2a1308012a0
+SHA512: f2d645f86a31c1a62efba88109cae13a659f62b9afb3c8af7b56efb9add118556ac0270a6147d8fcc4b7d376c63aad5ef6ef8a0196039a5bf6c9a9c2998ca690
+Description: Static libraries for libandroid-shmem
+Homepage: https://github.com/termux/libandroid-shmem
+
 Package: libandroid-support
 Essential: yes
 Installed-Size: 76
