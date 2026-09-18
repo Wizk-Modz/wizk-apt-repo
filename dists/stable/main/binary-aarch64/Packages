@@ -2627,11 +2627,11 @@ Replaces: libxml2-dev
 Depends: libandroid-glob, libiconv, zlib
 Breaks: libxml2-dev
 Filename: pool/main/libx/libxml2/libxml2_2.15.4-1_aarch64.deb
-Size: 442380
-MD5sum: ba6666bce6ca4184404debdb17b357c4
-SHA1: 8f611a554229c1bf44f93d0467a23970beb7dd1c
-SHA256: 4505604c1b6d26562cc6f391b738df774957857c3ffd7d090620137266d6e279
-SHA512: bd27f2c95879668c2ce85df851f12b590d4e3b5adbfce47129c7db91654dedb2c1d75a4c434347daf92983ec9a84a9a0c7c25f858633e865ec0b47009ded8f51
+Size: 442412
+MD5sum: 2f545b3ca4a94f1d42b66b826afc67f5
+SHA1: 1b573f98d720ef1b1db5fbfecb9aa2d6653d4b61
+SHA256: 64c4fe3c5254ec99d6f1c4a69fca05934c35249ea43d182ad3d2c6d46f85a90e
+SHA512: 7c70cc0a3887a9611a2b5de6453c177aa562d02d423c6df80e455f727237985bfe5aeaf6d0040169b8ba7ac835b9968ad18815b2d973c16481091c0def72b60b
 Description: Library for parsing XML documents
 Homepage: https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
 
@@ -2642,11 +2642,11 @@ Architecture: aarch64
 Version: 2.15.4-1
 Depends: python, libxml2 (= 2.15.4-1)
 Filename: pool/main/libx/libxml2-python/libxml2-python_2.15.4-1_aarch64.deb
-Size: 95768
-MD5sum: dcf0021290b90dfd8917b3602ad4ff06
-SHA1: f1f5638429003e4f40bf2d182699f79e4103fe93
-SHA256: 227ff6d045801147c1be37bd8fbc2f6554ea292151084657275bf6e9d40b2f1c
-SHA512: 1c366863c82dcaf9566de13cfe8e3b5a5dac27ce343ae764661b693ba2a776d671690e1d7cea39ad17e79fc86c8b869bbd141e3633582566ce666c0dbb2f1d3d
+Size: 95576
+MD5sum: 1eb8c33c5556734693e7981e73be97f9
+SHA1: af2f92037466e7acf7903d4b8d8c098f18187eed
+SHA256: ebad26032b8a705265e0be596911f83c599edb5596ea6a65491428bd6b59afba
+SHA512: 6c93f582701415ad6da352e4a80ac8ee2c59021a90cfcb32e7aafb4c5a47486ca20949cc5ab3fbee306cd0327c999db0adca2e96f5066d31b8c2b2eafc21a3dc
 Description: Python bindings for libxml2
 Homepage: https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
 
@@ -2658,11 +2658,11 @@ Version: 2.15.4-1
 Provides: xmllint
 Depends: readline, libxml2 (= 2.15.4-1)
 Filename: pool/main/libx/libxml2-utils/libxml2-utils_2.15.4-1_aarch64.deb
-Size: 34208
-MD5sum: ae7c9dd0330238c5a1440d7e1fcc9223
-SHA1: 07595c3903b408d3666fde2152c1235e22fe15b8
-SHA256: 73730295b8e9432a943c8d355f18ecce9fc863144ecaa3731a697c6cd62018d7
-SHA512: 57a8027b5bcc0cdf56bf9d81c6767e778666de6996368db3b84114e7553bbf7c14adc1432e4e285247123332f93e4bcff755b57dec86767ca76fdb0901821f00
+Size: 34220
+MD5sum: f4e56c06c2719e22569543ac4cc0cb51
+SHA1: c008df5f5854ffab964eea97156fad29adc213b7
+SHA256: 822a962aa443a1c7e4dcd35f86163fd3b27f5cd54fdfca1908e75fcb4419c9f1
+SHA512: 880a5ee8db29b191a202dfd3a8b2fdf5d7832d59dd789db9e14ee13e60e0741ad03b442e8fac69276743bf9fd2346e4ee3ee2d63aa88345d5087ff0fd2c1979b
 Description: XML utilities
 Homepage: https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
 
