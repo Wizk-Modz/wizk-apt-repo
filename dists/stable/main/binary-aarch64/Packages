@@ -1502,11 +1502,11 @@ Replaces: libedit-dev
 Depends: ncurses
 Breaks: libedit-dev
 Filename: pool/main/libe/libedit/libedit_20260512-3.1-0_aarch64.deb
-Size: 87728
-MD5sum: 4e7b508c3140b5d7a457ea51a74655be
-SHA1: fbd00123ec65f54dc96e90b74082636788c3b42e
-SHA256: d1e93748154b5e6b2fbd4dbefbcd79e638e5e210f8da8fc991d7f9134005cbda
-SHA512: bac6cbba73d9edeceb0ca26aeba567db34199716eaee80d98042f0af784b83b8429d8bc290d9a523d50ebab22999412be8bc4c17f03c0324c7519378d592ba6f
+Size: 87720
+MD5sum: 26a7c2eb0332e7a4a4bce14c018a4532
+SHA1: 61a26e38cf022723bd92fdbdebbfc0eb4504caa3
+SHA256: 449d288df77096b8e8c51786e0e2cdcc7a7a3a26d8307c6ae705e542783b32bd
+SHA512: 1273269376db2bc340f5d656a14c2f7ccca13635434e88385b5b33e1fa0bef9ef30ed889ff4f730671ea93d07a2e0caf71279c07d97b7b62ac4dbf2b2fd69842
 Description: Library providing line editing, history, and tokenization functions
 Homepage: https://thrysoee.dk/editline/
 
@@ -1517,11 +1517,11 @@ Architecture: aarch64
 Version: 20260512-3.1-0
 Depends: libedit (= 20260512-3.1-0)
 Filename: pool/main/libe/libedit-static/libedit-static_20260512-3.1-0_aarch64.deb
-Size: 77448
-MD5sum: 3403465cd903cd1f74afe332efbe2afb
-SHA1: c28f79bf8d4b78bd1a326d444a8c494dc0b26662
-SHA256: 46e7bd77a11949a086c08356fb4156c4825f915c1a89ef75fab6c4c0adb545db
-SHA512: 23d598af37ee1b925c7a1fc181bc66a97d10df562b033d8f912972dc6e7e39fd1795d92ff760c3d0e6a8b37e27641813cc071168c507a0a506812cc90397db36
+Size: 77408
+MD5sum: 81395d3f94083defb505b12caebb9910
+SHA1: 63dd4a3899a79fa91779ab635a425f069913f7a4
+SHA256: a06366d80da0519b716ed210128fc7e6c9fceb88dad7d2a780324fa41cfe028b
+SHA512: 403aa8985de0513496870240e472f9ed6b5de4a8fd02bfce02d878631f0d5e60019babce1b0317feb48f8cacbcc86d82c6a04f06d6adc86693c60d5f326edd04
 Description: Static libraries for libedit
 Homepage: https://thrysoee.dk/editline/
 
