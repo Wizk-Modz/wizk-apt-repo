@@ -714,6 +714,21 @@ SHA512: f498aa5ee9eb8eb505cb515085dc4be9fe7a32473bb4e37e815ba451e78f56b8c33c2191
 Description: Static libraries for gdbm
 Homepage: https://www.gnu.org.ua/software/gdbm/
 
+Package: gh
+Installed-Size: 43028
+Maintainer: Krishna kanhaiya @kcubeterm
+Architecture: aarch64
+Version: 2.101.0
+Recommends: openssh
+Filename: pool/main/g/gh/gh_2.101.0_aarch64.deb
+Size: 10072064
+MD5sum: 186a0466e4379728a2548139264868c0
+SHA1: 1933b1546d0abab542bfce5d4ce65a27b60d6a96
+SHA256: a0eaf30be4301433a34b19af4401b37862588570f18b682c2ccca27b18446457
+SHA512: b3487ff17caa7aa6838dd5e19d36712e6b7d087bb44a8e4aaf93a4f71b0b3bbacc5fe8092792ee80fbcc037f08b5984ae9cc25be0aee047640adacfc4b694168
+Description: GitHub’s official command line tool
+Homepage: https://cli.github.com/
+
 Package: git
 Installed-Size: 24140
 Maintainer: Joshua Kahn <tom@termux.dev>
@@ -885,6 +900,21 @@ SHA256: 5f1b76ced37fdcd908d4dcc84c23cdeb1981fd7cefa6f843584d20d48823d410
 SHA512: c95afe59423010ab8028f6d179b84f6e77077b3ea2c2b5d082cde1f6fbf73b0ac9b7abe6933ced6dfc058a8852da1a295c7328d73a25cc851e1f7b9fd36e8c46
 Description: Standard GNU file compression utilities
 Homepage: https://www.gnu.org/software/gzip/
+
+Package: hugo
+Installed-Size: 66124
+Maintainer: @termux
+Architecture: aarch64
+Version: 0.166.0
+Depends: libc++
+Filename: pool/main/h/hugo/hugo_0.166.0_aarch64.deb
+Size: 14398184
+MD5sum: 1b97328c5889384944445da42e9a50b1
+SHA1: c1d80778b51148adc30d5b991f3b6700f3acebf3
+SHA256: 1bacf9e2204813ff1fbf3e255473c2c6e099aa33782fa4a8bfc4ce6a4bd1af62
+SHA512: 1ce0e48f10434d07192c689cb150f5adf9125485660f029cedcfa20d6d9233b63c3a8a94cc408894f6034ebb8630d3e348eb8dd827d3371921914580c49f0943
+Description: A fast and flexible static site generator
+Homepage: https://gohugo.io/
 
 Package: iconv
 Installed-Size: 56
