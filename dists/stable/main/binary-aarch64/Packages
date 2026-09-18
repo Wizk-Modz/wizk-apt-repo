@@ -1,3 +1,34 @@
+Package: abseil-cpp
+Installed-Size: 9448
+Maintainer: @termux
+Architecture: aarch64
+Version: 20260526.0
+Depends: libc++
+Conflicts: libgrpc (<< 1.52.0-1)
+Filename: pool/main/a/abseil-cpp/abseil-cpp_20260526.0_aarch64.deb
+Size: 1197516
+MD5sum: b9f66fc69544d6bc961321bc198132e2
+SHA1: 76423f8df83d46effde56fd1fe536a1df90082d8
+SHA256: b9fde542b0427aa3251b444f0afa69696dae8a6ec65c4953a31b15b1e140f8ad
+SHA512: 929ba899cad69795f5981cd7df35cc3e7a9c9828c1d0f2d11481cc247bde8992af727bfc05d83da43e075e4b2cec2a09f81662f7f474cf49481bcf12c2731dfa
+Description: Abseil C++ Common Libraries
+Homepage: https://abseil.io/
+
+Package: android-tools
+Installed-Size: 12424
+Maintainer: @termux
+Architecture: aarch64
+Version: 36.0.1+really35.0.2-1
+Depends: abseil-cpp, brotli, fmt, libc++, liblz4, libprotobuf, pcre2, zlib, zstd
+Filename: pool/main/a/android-tools/android-tools_36.0.1+really35.0.2-1_aarch64.deb
+Size: 1973632
+MD5sum: a66f10caf000fb2a71e5e5044fc39aa5
+SHA1: b117f9d5823467303d72f91b7b0ebc82e249ac77
+SHA256: 184fd575e9508d5b6e912ca092e3db6a096c9bde244cd6e66f58e55ae708dca9
+SHA512: 831f96748af3668bf66b42c214f7afe12a3ced04cda78b4262a674af16ea4e7169f1b2cdcfe531d8fa9f479d83a39eab17d913e643cc4fc6d5e10874a5297a55
+Description: Android platform tools
+Homepage: https://developer.android.com/
+
 Package: apache2
 Installed-Size: 32780
 Maintainer: @termux
@@ -570,6 +601,21 @@ SHA512: f294bcfdd88abb4520419ef64085af3b1cc8e11ec647b61c5927f5958fa0521fe7fbea09
 Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
 Homepage: https://www.gnu.org/software/findutils/
 
+Package: fmt
+Installed-Size: 824
+Maintainer: @termux
+Architecture: aarch64
+Version: 1:11.2.0
+Depends: libc++
+Filename: pool/main/f/fmt/fmt_1:11.2.0_aarch64.deb
+Size: 168464
+MD5sum: 8dea3ffe072055925709f620675dc779
+SHA1: db1e1823f8be413ce469d650d15c5f110508a92c
+SHA256: 9fd8a13f216084637d00938233c6e721c5a09a60566c11641523b8b6817171e2
+SHA512: 36b5844439de85f7a3a6e456736d1d7756f76e99ca9a96480afd8950f0ba5c510fd9a77847bc725650e26dc51862080cbfa07ec7b643a5766d6426975e806baa
+Description: Open-source formatting library for C++
+Homepage: https://fmt.dev/latest/index.html
+
 Package: fontconfig
 Installed-Size: 888
 Maintainer: @termux
@@ -883,6 +929,23 @@ SHA256: 95e91df18e162580f25ae29f669172f99498ec3402e30bcb4f1933f54d23ae6d
 SHA512: 2b427e8a48d2c9589160c87908504157507eb3235c86c9f4b0c13863a398c2ed0e188202c00e0bde49ff6cb310d264740a4f725e730fb9df09d62286ae4391d6
 Description: Go programming language - documentation
 Homepage: https://go.dev/
+
+Package: googletest
+Installed-Size: 1940
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.18.0
+Replaces: libgtest
+Depends: libc++
+Conflicts: libgtest
+Filename: pool/main/g/googletest/googletest_1.18.0_aarch64.deb
+Size: 357424
+MD5sum: 8eca83c424c06f88b8c2c79387163244
+SHA1: 887c333a9332bc06ebbe70ac6fce086661eb05d0
+SHA256: 3a91f27b57a9ebdfcf47375ab5ab2c9305dc638a0f228ecd7107a857114cfabd
+SHA512: cc8da54504afa3fdf712a89d8ccd6715b9fa1c134df98c559f741ee2fb65ec9322ce81945c642928daf3e95880b4abf7028940a1a76bd48fed6a7e166782976c
+Description: Google C++ testing framework
+Homepage: https://github.com/google/googletest
 
 Package: gpgv
 Installed-Size: 508
@@ -2104,6 +2167,24 @@ SHA512: 6be78df334b21f268495476533adf5044b8f40375750539a439a1169bd3a7cbdb3d85b62
 Description: Static libraries for libpng
 Homepage: http://www.libpng.org/pub/png/libpng.html
 
+Package: libprotobuf
+Installed-Size: 9172
+Maintainer: @termux
+Architecture: aarch64
+Version: 2:35.1
+Replaces: libprotobuf-dev, protobuf-dev, protobuf-static, libutf8-range
+Depends: abseil-cpp, libc++, zlib
+Conflicts: protobuf-static
+Breaks: libprotobuf-dev, protobuf-dev, protobuf-static, libutf8-range
+Filename: pool/main/libp/libprotobuf/libprotobuf_2:35.1_aarch64.deb
+Size: 1387152
+MD5sum: a386d23733c787925dd2f74a11531828
+SHA1: 08bc710b6960542ec407d0f59e4001f0786b1fc5
+SHA256: d06f1a9de77cf0d8013872e8c73633cbe137fdac54722cffac22dbda8e5da120
+SHA512: 7c92f39fda83d9715ca5a3c61484b04cad98002beccbe40a18aecf2124d7680938155f7b1fcda0bb6f559ca7f8a3fab2c17bc381c54f16d2c957a8500620da80
+Description: Protocol buffers C++ library
+Homepage: https://github.com/protocolbuffers/protobuf
+
 Package: libresolv-wrapper
 Installed-Size: 104
 Maintainer: @termux
@@ -3037,6 +3118,21 @@ SHA256: 72d7ca9c82aa9b74d25f0c05e0d05b8ee559bf43a3ecaff120128a14a7c02253
 SHA512: aa6a7acfa5d8662f4a5c12711e3a808bc4e19cfda974d5f43b54649afd58360f6048184594e24b46d297d3f0e5565c2d3d31fd3fcb1775186c0bb55ce341e47b
 Description: Static libraries for procps
 Homepage: https://gitlab.com/procps-ng/procps
+
+Package: protobuf
+Installed-Size: 5900
+Maintainer: @termux
+Architecture: aarch64
+Version: 2:35.1
+Depends: libprotobuf (= 2:35.1)
+Filename: pool/main/p/protobuf/protobuf_2:35.1_aarch64.deb
+Size: 1194428
+MD5sum: 16e52e9d7b414142bcf77e151d181770
+SHA1: 03d68e21ac8f80c249b10f11887b3c977cd1f8d0
+SHA256: d564641d4474eeefec15dcfe528261e3db4ebbe599eb92d66d40789804771e88
+SHA512: 643fc908a88aa4a11e3389d64d23dc31b107d21ed72c38b7620e624b124b0bf1470789505c70a2d473c934c7f2436a6bb0e200c1f81f3c43da70bab29935862f
+Description: Compiler for protocol buffer definition files
+Homepage: https://github.com/protocolbuffers/protobuf
 
 Package: psmisc
 Essential: yes
