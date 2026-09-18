@@ -1008,20 +1008,6 @@ SHA512: c95afe59423010ab8028f6d179b84f6e77077b3ea2c2b5d082cde1f6fbf73b0ac9b7abe6
 Description: Standard GNU file compression utilities
 Homepage: https://www.gnu.org/software/gzip/
 
-Package: hicolor-icon-theme
-Installed-Size: 108
-Maintainer: @termux
-Architecture: all
-Version: 0.18
-Filename: pool/main/h/hicolor-icon-theme/hicolor-icon-theme_0.18_all.deb
-Size: 4932
-MD5sum: 64ad74871916efd040fe03bfab315daa
-SHA1: 8242f6762ba900f41bed3e263506ebdbfd1a2691
-SHA256: c94cd37bea7ab83cf00857b02af723578c01d172dba06106f4c20eb6d81fe05e
-SHA512: 26f16f6c660d73b05410177b617946a468b1a29fa51b0ef4c1b3697048809eb5ac0936f6311beb02259d9f127c740d5936cfe678947a243858bba38a922c9f75
-Description: Freedesktop.org Hicolor icon theme
-Homepage: https://www.freedesktop.org/wiki/Software/icon-theme/
-
 Package: hugo
 Installed-Size: 66124
 Maintainer: @termux
@@ -1098,35 +1084,6 @@ SHA256: acbc8ebf6c674b545ff48e4f4472172b46a0cd9cab74e312364434b4f062a108
 SHA512: 3cb109dcd393cd94314213765a1fd446541530762d25b658bde5f788ba9a3caec4c3f5634388604a152a545a7f8a41f75f5c972105e57f68c41a4adbee01b09e
 Description: Static libraries for jq
 Homepage: https://jqlang.org/
-
-Package: keyutils
-Installed-Size: 372
-Maintainer: @termux
-Architecture: aarch64
-Version: 1.6.3-3
-Filename: pool/main/k/keyutils/keyutils_1.6.3-3_aarch64.deb
-Size: 92516
-MD5sum: 2c8323e8e718e3f1039198112999718e
-SHA1: 823ca80b99983cfe52e7953e1875df122935c083
-SHA256: 5663cda182590ef6970b48b0a6d2c12dba24cbca9bace7b45c4b3f0a93491e97
-SHA512: 66862619f4288059323a153a5dcf8441bbbe46eb9e94d5fc4af20a4a2052773379ed96074df099c2e31af3bca22a22e15f6b11ddc771a611db8122dff633c5de
-Description: Utilities to control the kernel key management facility
-Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git
-
-Package: keyutils-static
-Installed-Size: 44
-Maintainer: @termux
-Architecture: aarch64
-Version: 1.6.3-3
-Depends: keyutils (= 1.6.3-3)
-Filename: pool/main/k/keyutils-static/keyutils-static_1.6.3-3_aarch64.deb
-Size: 4900
-MD5sum: 350d64aee0636be0b09ca36eb3adff06
-SHA1: f6ee3be2bd8f218fae7a1e4207fc84b90515229a
-SHA256: 62a44f1bcbbde62ecd70ee460352cf58048406308439905658dac8a38b6b58ed
-SHA512: c87eb9db7fab6a1dc1d05fc8d7616651a18b468ea586d42349d60ccd96cb166abb79e0eeea78577d113cd55d0af87d790180b6f01c83e67861e8268823d5df4e
-Description: Static libraries for keyutils
-Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git
 
 Package: krb5
 Installed-Size: 3936
