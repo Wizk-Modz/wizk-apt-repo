@@ -1728,11 +1728,11 @@ Version: 5.8.4
 Replaces: liblzma-dev
 Breaks: liblzma-dev
 Filename: pool/main/libl/liblzma/liblzma_5.8.4_aarch64.deb
-Size: 194840
-MD5sum: 32712aec05306ea128d92e2346715839
-SHA1: 5db8490b31becfe3e63d18a68d42405f9b8d4335
-SHA256: e9c3607ec867df8ba0bbddd9bbb40d8456c37a91901f39574636a5bec2bea3fd
-SHA512: 687f6255a912b96ed5dd671a023eaad389e1ef8017e25aab1d0d812330ad0a72322a21b259adc836d0f39a126be1be44e21380756077e181680bcc6c2189e8e7
+Size: 194776
+MD5sum: bedffa4df443f62cd72bb2112b007548
+SHA1: 4b307f1719854b965aadd2bdd61f0d7df160814f
+SHA256: 82bd9304ff86a373c9a3e3a5ce8ba0442b982963c9cbe3bbcc6a1ae64cfff3ba
+SHA512: 1e5de0faba90418e87bf66b8001e695a7850e79c80826b179324e9762d7970423ec6e3919d152789017eab5f9ecc6bfc796112e119542ca7deac409516fee0f0
 Description: XZ-format compression library
 Homepage: https://tukaani.org/xz/
 
@@ -1743,11 +1743,11 @@ Architecture: aarch64
 Version: 5.8.4
 Depends: liblzma (= 5.8.4)
 Filename: pool/main/libl/liblzma-static/liblzma-static_5.8.4_aarch64.deb
-Size: 89912
-MD5sum: 61454b4b6b56e43083a0420f3638a11d
-SHA1: 0b7575bb5504344792026a83a1539b0441279383
-SHA256: d27308750dbc79b37193f0391cefcad8847b44e06885f875646d9fcd4958d303
-SHA512: 482dde7fcc327cb8dffec4e6ffdcd4a3b49462d4775ab19ef8330991273a10a09d975cc6bf1e3be1ac675d2ac4c7eb4ade61ca4b705a916e7cf6121b84c955fc
+Size: 89908
+MD5sum: 1bfe90b3914d1943497b629006deb2df
+SHA1: d1c5dae5110c12dd5332311c6a6252381f636971
+SHA256: def06825f642b474cca4248bc574ea08c6d75b5fddb5d7ad7e3b6cd04b26ec4f
+SHA512: 98c5ae627e7ea696da382f7f090a27c8b5bcdaaa62398cee6eeb1ea689fe5c697fdf85274700d0e1c5f8ebb8b835bdabbbfc662591c22b23849c9da06e9ea354
 Description: Static libraries for liblzma
 Homepage: https://tukaani.org/xz/
 
@@ -3845,11 +3845,11 @@ Architecture: aarch64
 Version: 5.8.4
 Depends: liblzma (= 5.8.4)
 Filename: pool/main/x/xz-utils/xz-utils_5.8.4_aarch64.deb
-Size: 71316
-MD5sum: 91d3c9b80f9a817f28c4ff504a243359
-SHA1: 384a2a575fde7e6c42094ba33c738bad0e99e98e
-SHA256: 3772e6d0d51d5d2d4a1a4065ee8d53fe0743cd14f86a8e167f6407032a5a505d
-SHA512: 576122e4be169b9156adfab3f1cb8b62eb4c2e63904501deeb68ee69d007b8d2d396706f41c7d7299182db5bfbf1523dbf967b94c9bb32cfa023599e811a9f66
+Size: 71328
+MD5sum: 2abb71b4b48c0f9084ec9dea96ed8af9
+SHA1: a53bf30856f4f553ca286f4febfe381417d2c1c4
+SHA256: 9160d4fb82928fa5df7d28c437dd14295ab7a95140579dc00cf000920fbdaafd
+SHA512: 26b7a86e8e882d63542e22f8bc8611cca5175c754f4248ccce4b2ccb778c143330fd35a022809133e87577de1ccec7607449ec454899e028e9d470bed640d709
 Description: XZ-format compression tools
 Homepage: https://tukaani.org/xz/
 
