@@ -206,6 +206,21 @@ SHA512: 0187cdc8a16f0e5807901e2eb382257faf8dd7fbb89d81a7b5259c3c79460f0f0e9a0fda
 Description: Static libraries for attr
 Homepage: http://savannah.nongnu.org/projects/attr/
 
+Package: atuin
+Installed-Size: 28660
+Maintainer: @termux
+Architecture: aarch64
+Version: 18.19.0
+Depends: openssl
+Filename: pool/main/a/atuin/atuin_18.19.0_aarch64.deb
+Size: 7015764
+MD5sum: 44fb9b22f59e44e138cfaff7056d2103
+SHA1: f6cfbe500f8d5164287297fd8deecf871ed3cd97
+SHA256: 21de6bd7bd1d33f8c89769143ad6bfce33174cdb7d88f5cb3807f2ed0eddf5a6
+SHA512: 69a5755d8e7ce4b1193efaeefcc73cc80ba50c0c486d4f0977bb4dc6a1953291d58084afb86c7d4197bbd62921943028a9407445d10c91033b1b0275ba7c0f55
+Description: Magical shell history
+Homepage: https://atuin.sh/
+
 Package: bash
 Essential: yes
 Installed-Size: 4736
