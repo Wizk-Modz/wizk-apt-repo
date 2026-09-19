@@ -1084,6 +1084,22 @@ SHA512: 165f9dac17adfc0113f1d9b34fe4a379988fa31e65c1dde88304343df80d21c72834ced8
 Description: Development utilities for International Components for Unicode
 Homepage: http://site.icu-project.org/home
 
+Package: inetutils
+Installed-Size: 1140
+Maintainer: @termux
+Architecture: aarch64
+Version: 2.7
+Depends: readline
+Suggests: whois
+Filename: pool/main/i/inetutils/inetutils_2.7_aarch64.deb
+Size: 241536
+MD5sum: e71c3d5c2172f6705c99cc09110e0c81
+SHA1: 4911092a4fb581c87001ccf2d6bf51534e43b82b
+SHA256: 7cca8d62878a01f62295238bde5abdd31f5d22ff0a5a30eb9aa2ae582448aa31
+SHA512: 7bcde0c20e59659cfbba013e43e1faf834a4b8f388f791ebb49dede06e5b5f12bb77d0ecb4b8a7e0f5e313c82f5718b222b7e36873fd682eaa71a4a952acc934
+Description: Collection of common network programs
+Homepage: https://www.gnu.org/software/inetutils/
+
 Package: jq
 Installed-Size: 524
 Maintainer: @termux
