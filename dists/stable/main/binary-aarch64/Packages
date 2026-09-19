@@ -585,6 +585,23 @@ SHA512: 78a72d8cf6128397a27530b75223365823399104e6cb8cbb7ee9a78911758e8a87b00fa9
 Description: Creates Packages index files
 Homepage: https://packages.debian.org/dpkg
 
+Package: dropbear
+Installed-Size: 444
+Maintainer: @termux
+Architecture: aarch64
+Version: 2026.94
+Depends: termux-auth, zlib
+Suggests: openssh-sftp-server, termux-services
+Conflicts: openssh
+Filename: pool/main/d/dropbear/dropbear_2026.94_aarch64.deb
+Size: 143640
+MD5sum: 721938a1e305a1109afc4b54d9e900c9
+SHA1: 17f64f33b0c2070694df1be8391751c43e95fe17
+SHA256: e1c66e5dd014710bc78bd97ab9642fd9d95a7a9d8b943b076c7ce7988fdd6ed7
+SHA512: 355772ed31c6305be29138259c955954540c0ad55ec71a1577b94dfa43c95e05e470e0a7a3444ff0716490ce8d61cf1eee6f341b98b5c9d0643031e9f7894a5c
+Description: Small SSH server and client
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+
 Package: ed
 Installed-Size: 180
 Maintainer: Oliver Schmidhauser @Neo-Oli
@@ -2401,6 +2418,38 @@ SHA512: 5cff774c618df5636dbeac0851006d5ae98e273a0679e68f62afc9f614dc0b9461c43583
 Description: High-level loop and data-locality optimizer for clang
 Homepage: https://clang.llvm.org/
 
+Package: libpopt
+Installed-Size: 136
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.19-3
+Replaces: libpopt-dev
+Depends: libandroid-glob
+Breaks: libpopt-dev
+Filename: pool/main/libp/libpopt/libpopt_1.19-3_aarch64.deb
+Size: 33548
+MD5sum: 2fa4c03be97c2d1014e4b086c53ffcb9
+SHA1: 23c6704cd118b2a2f72df749dec4291d9ed79fa4
+SHA256: 0a9e619a6f15f65920506868ba54f87f769ec5ccaf57c60a43588557d72282bd
+SHA512: 4f6614634e928cd19dc3585f9a3ab3de6b7a1bdd3761b4084535c384126df99e3ed77c5ab01a8e1bbea08670ad006b2f95d8ed859a0aa1348411dd4f67f13879
+Description: Library for parsing cmdline parameters
+Homepage: https://www.linuxfromscratch.org/blfs/view/svn/general/popt.html
+
+Package: libpopt-static
+Installed-Size: 88
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.19-3
+Depends: libpopt (= 1.19-3)
+Filename: pool/main/libp/libpopt-static/libpopt-static_1.19-3_aarch64.deb
+Size: 18296
+MD5sum: dc69bb73d177b92a54a8bc5a9386c8af
+SHA1: 5e495217605baa6596f862ec3fe4be128de1f69f
+SHA256: 89fa7bcf95f00bd44c7a690e5bde617c503df27c3ba35ee89ddcdc958b3c045d
+SHA512: f4bbd347d45da18381a2ce356f6ae90dbebb6011e7cd23efc42fa7019a4ee219d541fdfa714561a1d6864719c9b8f996ffac09c41b2ec801b71128a1962affb0
+Description: Static libraries for libpopt
+Homepage: https://www.linuxfromscratch.org/blfs/view/svn/general/popt.html
+
 Package: libprotobuf
 Installed-Size: 9172
 Maintainer: @termux
@@ -3717,6 +3766,21 @@ SHA256: 02aa44de6726463cb3c3cd64b62b762802b3f6c03312426efb03c8f642d3cd04
 SHA512: d867e33b84ecba60dc4b8194a0fd2560702cc7a990ecd9039a8afdd80e85847fa49580f3604a0f5069163f77998d739f47ea6cac35960a850d3f6d9042463c9f
 Description: Resolver configuration file
 Homepage: https://man7.org/linux/man-pages/man5/resolv.conf.5.html
+
+Package: rsync
+Installed-Size: 640
+Maintainer: Joshua Kahn <tom@termux.dev>
+Architecture: aarch64
+Version: 3.5.0-1
+Depends: libiconv, liblz4, libpopt, openssh | dropbear, openssl, openssl-tool, xxhash, zlib, zstd
+Filename: pool/main/r/rsync/rsync_3.5.0-1_aarch64.deb
+Size: 297828
+MD5sum: 933fd6ea989b5cee07e1a91b891a82f7
+SHA1: 5c7a60e2fec0be47d68dc302f3b451c94153e3a2
+SHA256: 56766b3d406c0c5f767767c16ba8a8ac1729ed4d7b405aa3fdd48ee8edd06070
+SHA512: 6f623ee89f87a7dac529afa1020878dee6610eb7368a61cc4305fd9f37fecacf9cbded7a2192a96fbc4d47025c2063b539847e13201b5677ea7fac7352801a23
+Description: Fast incremental file transfer utility
+Homepage: https://rsync.samba.org/
 
 Package: scdaemon
 Installed-Size: 508
