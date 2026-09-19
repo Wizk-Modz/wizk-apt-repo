@@ -3095,6 +3095,36 @@ SHA512: 7a45b25d035633612fb87d70e9911a68230d0e761724998b9130a60162eaa600e69ddc67
 Description: LLVM Development Tools
 Homepage: https://clang.llvm.org/
 
+Package: lsof
+Installed-Size: 396
+Maintainer: @termux
+Architecture: aarch64
+Version: 4.99.7
+Depends: libandroid-support, libtirpc
+Filename: pool/main/l/lsof/lsof_4.99.7_aarch64.deb
+Size: 125068
+MD5sum: 30b11fca823fdd05d2206c02a05a1742
+SHA1: a1fec38f3d883adaafc4fb388b3f9a7f1aae3d68
+SHA256: c2053bc5847c3e51761edc940aa13438c937aca5402197909bc2418ebf239159
+SHA512: b927cc12587fe3d6acfc989dd2464a6bf2e33493f29572b3e52a8eb661ff33e4272f399cb71d9b2ee533c0d98cbe6b6c36025b7fb510bed716433b27aa853ab4
+Description: Lists open files for running Unix processes
+Homepage: https://github.com/lsof-org/lsof
+
+Package: lsof-static
+Installed-Size: 260
+Maintainer: @termux
+Architecture: aarch64
+Version: 4.99.7
+Depends: lsof (= 4.99.7)
+Filename: pool/main/l/lsof-static/lsof-static_4.99.7_aarch64.deb
+Size: 54584
+MD5sum: a40182cdccb42cdae72e73f6d0de9cc5
+SHA1: 7a6e15fa0ff4ae5be00ffb497c880f6524422f63
+SHA256: 434a543924db2ce84b3c671e50f2bd555eccff3141a2b1eedf4c8dc734de1de6
+SHA512: f6acc312ae02fef94e0c118306c5dc2ccd8ba65dff34abea8d3df0589b21a6d9a8b9e278eed791deee019bda479f980cf5f250016a394b39dd8f80c7c312606c
+Description: Static libraries for lsof
+Homepage: https://github.com/lsof-org/lsof
+
 Package: lz4
 Installed-Size: 284
 Maintainer: @termux
