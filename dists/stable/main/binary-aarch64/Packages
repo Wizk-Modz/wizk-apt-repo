@@ -1025,20 +1025,6 @@ SHA512: c95afe59423010ab8028f6d179b84f6e77077b3ea2c2b5d082cde1f6fbf73b0ac9b7abe6
 Description: Standard GNU file compression utilities
 Homepage: https://www.gnu.org/software/gzip/
 
-Package: hicolor-icon-theme
-Installed-Size: 108
-Maintainer: @termux
-Architecture: all
-Version: 0.18
-Filename: pool/main/h/hicolor-icon-theme/hicolor-icon-theme_0.18_all.deb
-Size: 4832
-MD5sum: 91764a065b5cef63a7676c1eef8aa2c9
-SHA1: 05199df34747188fb67732c94a1ebbd4b6b32f1c
-SHA256: dea5858bc10136d013f30a45bd44d27f0c7369a578aae9eb26cc2409c29ced25
-SHA512: 4d4a73480c82354c50e6201c3e77e67e4b6332eac5684022edca1169c31c15d15f384751ebb834efc0d83553a5c3f51f19e3cfea127699d7b5e14bc4fe150aa1
-Description: Freedesktop.org Hicolor icon theme
-Homepage: https://www.freedesktop.org/wiki/Software/icon-theme/
-
 Package: hugo
 Installed-Size: 66124
 Maintainer: @termux
@@ -1115,35 +1101,6 @@ SHA256: acbc8ebf6c674b545ff48e4f4472172b46a0cd9cab74e312364434b4f062a108
 SHA512: 3cb109dcd393cd94314213765a1fd446541530762d25b658bde5f788ba9a3caec4c3f5634388604a152a545a7f8a41f75f5c972105e57f68c41a4adbee01b09e
 Description: Static libraries for jq
 Homepage: https://jqlang.org/
-
-Package: keyutils
-Installed-Size: 372
-Maintainer: @termux
-Architecture: aarch64
-Version: 1.6.3-3
-Filename: pool/main/k/keyutils/keyutils_1.6.3-3_aarch64.deb
-Size: 92592
-MD5sum: 28aa09cce02c65cb5858bd7b97328ec2
-SHA1: 398898180df1ae15cad0cf05deba1e4b67f074d1
-SHA256: 5a6c9e7751c6009d21d069a30deb9584903e9f7feb4f76a4d690edea4299523a
-SHA512: f327561d851c111edd4e311e9fb0bec4ce7082d49f7dcb9c47e09594f8003632ce8df2ff987e396bea3039df3c7cae946b2ca5da0872fc087a6a79068a2aeaa3
-Description: Utilities to control the kernel key management facility
-Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git
-
-Package: keyutils-static
-Installed-Size: 44
-Maintainer: @termux
-Architecture: aarch64
-Version: 1.6.3-3
-Depends: keyutils (= 1.6.3-3)
-Filename: pool/main/k/keyutils-static/keyutils-static_1.6.3-3_aarch64.deb
-Size: 4904
-MD5sum: 5aa7596a52e1228f9fbb148e34acafc4
-SHA1: 7938f9f45f6bb5ac4cfb254709cdc0fbf7c9efd9
-SHA256: 36073b0092f8344e51ba3cd03703640b8b21e80b4a08d910b46b50bbeaefc41f
-SHA512: 2c8354dbdd27882eaf45ce6c54aff6bbe957b687f08625e4b642796bba99256a8c6d78ff52bddfcdb7dfd27094e0214d4a057831450bb33ba783330d7215c30b
-Description: Static libraries for keyutils
-Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git
 
 Package: krb5
 Installed-Size: 3936
@@ -3255,6 +3212,22 @@ SHA256: 05e1f9ea6684e33f3fbfc2a21765742582834e70a00f2edd5f7029eabb8a9785
 SHA512: 1a877cbab9b82954718bdd0d647236e33d4c8695581ed17c026f74afb3597bfc0b27078ce451ab486fb7c3b5056e8731dfefa15b91c9593f8d0fa8f2d1d7cb95
 Description: Open Source, cross-platform JavaScript runtime environment
 Homepage: https://nodejs.org/
+
+Package: npm
+Installed-Size: 18228
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Architecture: all
+Version: 11.19.1
+Depends: nodejs | nodejs-lts
+Conflicts: nodejs (<= 25.3.0), nodejs-lts (<= 24.13.0)
+Filename: pool/main/n/npm/npm_11.19.1_all.deb
+Size: 2023568
+MD5sum: 280fd47ef317a8bbf6da9cfa56451cbb
+SHA1: e7c43b46a321d68e997ea8b65541677b53aab0de
+SHA256: cdfe4240215175cf97b56698b63c3b98e5acf7a04b808c1bb8e01c6285504550
+SHA512: 146fdfc4cc112ef670d9664f42c94bf974c18775c46140b3bdfc472ac39d7b042bf9b143e49b701dfafd56b36909373419858e2379d6c28b139e2ae04805951b
+Description: The package manager for JavaScript
+Homepage: https://docs.npmjs.com/cli/
 
 Package: oniguruma
 Installed-Size: 688
