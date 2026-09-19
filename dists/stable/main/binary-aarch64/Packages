@@ -4197,6 +4197,21 @@ SHA512: cd0cd4bab623e8972948472d0640029985c408ed6bbccc27f5f1fd407e871c57ff7dc143
 Description: Unbound command-line tools
 Homepage: https://unbound.net/
 
+Package: unzip
+Installed-Size: 324
+Maintainer: @termux
+Architecture: aarch64
+Version: 6.0-10
+Depends: libbz2
+Filename: pool/main/u/unzip/unzip_6.0-10_aarch64.deb
+Size: 116884
+MD5sum: 08912cc5253f12a224d2456d8ab7f1f0
+SHA1: 08807eec605204e63816ca21cb8f478ef1c3ab2c
+SHA256: 4cf2101d432180b6818781b2e449f79fda033008f4450836bc3cfbaf1a595881
+SHA512: 67c0dc284942093109f8e9dc33ed88f610cf45ae3d24d065b9283e29793bbdddc9f49e1971332b9c0480725a3475de6c94d1006b5e2b8602a27764f6e82284c5
+Description: Tools for working with zip files
+Homepage: https://sourceforge.net/projects/infozip/
+
 Package: utf8proc
 Installed-Size: 440
 Maintainer: @termux
