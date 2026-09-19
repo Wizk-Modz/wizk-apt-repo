@@ -585,6 +585,20 @@ SHA512: 78a72d8cf6128397a27530b75223365823399104e6cb8cbb7ee9a78911758e8a87b00fa9
 Description: Creates Packages index files
 Homepage: https://packages.debian.org/dpkg
 
+Package: ed
+Installed-Size: 180
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Architecture: aarch64
+Version: 1.22.6
+Filename: pool/main/e/ed/ed_1.22.6_aarch64.deb
+Size: 43020
+MD5sum: 27b96820e9cf9fcfe22be37acb5ed191
+SHA1: e00ad2773c9b787e9f091360406dfcaad52dfdcd
+SHA256: 71427881697161fd115692d22bd3f13cea038630830f1c7998c3521d2c1cd00d
+SHA512: a7d0e9b7fd3b00cebca846c47bc493d6f26358378bbc126f1d7d1591ff71a97b6077012db4b26a9e3e83c044a24fe48b8f0b7a8ed0838fb3102f3058a0762b82
+Description: Classic UNIX line editor
+Homepage: https://www.gnu.org/software/ed/
+
 Package: fdisk
 Installed-Size: 472
 Maintainer: @termux
