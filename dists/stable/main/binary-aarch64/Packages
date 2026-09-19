@@ -2560,6 +2560,35 @@ SHA512: f9277da07642f5c9465bd137ebf6c45cf0b70c3cad69f27fa7f3aac3ed4b81a013a1e64d
 Description: Static libraries for libtasn1
 Homepage: https://www.gnu.org/software/libtasn1/
 
+Package: libtirpc
+Installed-Size: 548
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.3.7-1
+Filename: pool/main/libt/libtirpc/libtirpc_1.3.7-1_aarch64.deb
+Size: 123892
+MD5sum: 95201aab5b2273740227b24141fbd7ce
+SHA1: b6595c8d538c1100137e5d29420c7149a595e6fb
+SHA256: babfe57abb131620b7ea8d04ee0c2029bce34094130ef3da072e599fbc58811f
+SHA512: a40adb95c1d85d471952488465f0438eef38a59188c2ae11365db6bf01bb3e95d63c60efd7524ed05268c2d46f48ce0a338f939bd5af792be617bb1d126e1eba
+Description: Transport Independent RPC library
+Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
+
+Package: libtirpc-static
+Installed-Size: 384
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.3.7-1
+Depends: libtirpc (= 1.3.7-1)
+Filename: pool/main/libt/libtirpc-static/libtirpc-static_1.3.7-1_aarch64.deb
+Size: 69544
+MD5sum: 340989bf268b9b53fb5e2e1d05499359
+SHA1: 3b94d0db7d074639e4b8eb95776cffc3eec95067
+SHA256: b8cd54768cd34de37bb11ac39256b31d7fa9d249aa5a7dd42df40bc8acfedec0
+SHA512: 4e9d1c335a86d039352846a9c9f0e790cbe164b6428bfebfe58353ae4cbeac645493e12d9c63034f7860d083c8f7e4082e4479035786b1f7803fdc3d7f184605
+Description: Static libraries for libtirpc
+Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
+
 Package: libunbound
 Installed-Size: 1256
 Maintainer: @termux
