@@ -568,10 +568,10 @@ Depends: libandroid-selinux, libandroid-support, libgmp, libiconv, openssl (>= 1
 Breaks: chroot, busybox (<< 1.30.1-4)
 Replaces: chroot, busybox (<< 1.30.1-4)
 Filename: pool/main/c/coreutils/coreutils_9.12_aarch64.deb
-Size: 824584
-MD5sum: 3add68e88522ec19c9eddd9e6f8e73a4
-SHA1: f709e64dd228ca432ae7ceaa24a4211d3eceb537
-SHA256: ab5b1756f06439bb156f68bbb0d33be636740cdf97741bf9edc5bb331c474ed2
+Size: 824280
+MD5sum: 94a274a54dfd31d1e7379dcf35477da6
+SHA1: c565de40723777201bd2c2e2df6b032390e3cfbc
+SHA256: 06a5b512dc93edfd66dec8fe38ffccd3fbc4e96e98f414220466d083c1bae4d1
 Homepage: https://www.gnu.org/software/coreutils/
 Description: Basic file, shell and text manipulation utilities from the GNU project
 
@@ -6232,7 +6232,7 @@ Homepage: https://github.com/termux/termux-services/
 Description: Service daemon for Termux
 
 Package: termux-tools
-Version: 1.46.0+really1.45.0-3
+Version: 1.48.0
 Architecture: aarch64
 Essential: yes
 Maintainer: @termux
@@ -6242,11 +6242,11 @@ Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
 Suggests: termux-api
 Conflicts: procps (<< 3.3.15-2)
 Breaks: termux-keyring (<< 1.9)
-Filename: pool/main/t/termux-tools/termux-tools_1.46.0+really1.45.0-3_aarch64.deb
-Size: 28776
-MD5sum: 103f961e71895447f528338415ab406d
-SHA1: 65dce51b75aa7d4d9ee9ce466127c2df1b07767b
-SHA256: 39a295a60d263018cfc75cf44d1c0ae9c297731dbca84a66a5b9603e37a69b28
+Filename: pool/main/t/termux-tools/termux-tools_1.48.0_aarch64.deb
+Size: 28748
+MD5sum: 5e954b16d8b6e8929f61098d7dd96c69
+SHA1: 9ccb03f56eac4b5f266afa97146f8eb71c8a450f
+SHA256: 78697a33df1ec7c7ab43afd6216ef54750cff1fdfa5e82d747ef8cdb8ef04ef9
 Homepage: https://termux.dev/
 Description: Basic system tools for Termux
 
