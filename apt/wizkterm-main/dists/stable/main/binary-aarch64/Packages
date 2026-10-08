@@ -2218,10 +2218,10 @@ Installed-Size: 416
 Breaks: libexpat-dev
 Replaces: libexpat-dev
 Filename: pool/main/l/libexpat/libexpat_2.9.0_aarch64.deb
-Size: 100264
-MD5sum: e46c8129b74709891469ee8b727299f6
-SHA1: fcd71b70064ea90eaa3d7aaf8af45a42b121f799
-SHA256: 01e190fb623744323196c29b009eb8963d9a61c14d3cc23cc21ca3b8b4372030
+Size: 100216
+MD5sum: 0e03498c94e3e5e5c1d15c4e2308d675
+SHA1: 1086c126ecdccf1517aa27b5c511fcf3d15f0530
+SHA256: f82ddc6379346e2252819e44e91b96e39c4a6ea530149ed577a5811e9bd53e19
 Homepage: https://libexpat.github.io/
 Description: XML parsing C library
 
@@ -2232,10 +2232,10 @@ Maintainer: @termux
 Installed-Size: 264
 Depends: libexpat (= 2.9.0)
 Filename: pool/main/l/libexpat-static/libexpat-static_2.9.0_aarch64.deb
-Size: 60808
-MD5sum: 600c3ef8ac505e3bc0626224cde4a521
-SHA1: 2f14943aa9f45254c5837f5b2520a0db98392d09
-SHA256: ab09ce7265a3d2d45745e5261514b0fc78e1855ffbd4c93d83552f10816e53f5
+Size: 60916
+MD5sum: 18fd9397c6c75294cc87a1c801538f6c
+SHA1: 3d3d23d14b8aeedf6ac840297c353aa7cb7945e4
+SHA256: b57d90d757a4361e297cc30fdbd730fe007792d2ae3a2d5b91af13c9a4968f50
 Homepage: https://libexpat.github.io/
 Description: Static libraries for libexpat
 
@@ -5528,16 +5528,16 @@ Homepage: https://github.com/miurahr/pyppmd
 Description: PPM compression/decompression library
 
 Package: python-rpds-py
-Version: 2026.6.3
+Version: 2026.9.1
 Architecture: aarch64
 Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
 Installed-Size: 840
 Depends: python, python-pip
-Filename: pool/main/p/python-rpds-py/python-rpds-py_2026.6.3_aarch64.deb
-Size: 233400
-MD5sum: 7ef51a79d92e5b7f3451e4390f876f46
-SHA1: 8dc70ca084b039f8760317228d9bff269098bfd4
-SHA256: 9bbf43b79ab979e7eacc81b5cb8ab440f976e7709f1bbe5f3beeaaeabb45cd83
+Filename: pool/main/p/python-rpds-py/python-rpds-py_2026.9.1_aarch64.deb
+Size: 235632
+MD5sum: 471f0c04b94552f066577ddf69cd817f
+SHA1: ae907d8d016cba3219ca17a371d7d01ba73edc34
+SHA256: f5ca79a4542b5774cf369a39006f0baa05e40fbeb1e9ee63dedea72e6da8ba61
 Homepage: https://github.com/crate-py/rpds
 Description: Python bindings to Rust's persistent data structures (rpds)
 
