@@ -568,10 +568,10 @@ Depends: libandroid-selinux, libandroid-support, libgmp, libiconv, openssl (>= 1
 Breaks: chroot, busybox (<< 1.30.1-4)
 Replaces: chroot, busybox (<< 1.30.1-4)
 Filename: pool/main/c/coreutils/coreutils_9.12_aarch64.deb
-Size: 824280
-MD5sum: 94a274a54dfd31d1e7379dcf35477da6
-SHA1: c565de40723777201bd2c2e2df6b032390e3cfbc
-SHA256: 06a5b512dc93edfd66dec8fe38ffccd3fbc4e96e98f414220466d083c1bae4d1
+Size: 825968
+MD5sum: afb5fc75e261ef31ad98878da424e87a
+SHA1: f6d4c144a28860a27999d629ce037733ca7c2992
+SHA256: 8360f310a0d1695e1cf76b1efb2e4e7a394ecde7c0247ae4732ab00604af8076
 Homepage: https://www.gnu.org/software/coreutils/
 Description: Basic file, shell and text manipulation utilities from the GNU project
 
@@ -1184,10 +1184,10 @@ Depends: libandroid-support, libffi, libiconv, pcre2, resolv-conf, zlib, python
 Breaks: glib-dev, glib-bin
 Replaces: glib-dev, glib-bin
 Filename: pool/main/g/glib/glib_2.90.1_aarch64.deb
-Size: 2574112
-MD5sum: c8363d207f01784e8570782004ba8d45
-SHA1: 032a8ab2f9137cd1e388606effd33ee97372d998
-SHA256: c7d1200bce322228970dcabf410caef8308d2c2d9b5bee5152c6aef68ca80187
+Size: 2572216
+MD5sum: 903f1588b77fb83f35c37502d125d06f
+SHA1: 52c5b477f3018827479dbab18abed6bfa1bdf06f
+SHA256: 346d65a2807a0775e4e925537d80a99435f84c049e648c0ab48402ae5d92e886
 Homepage: https://developer.gnome.org/glib/
 Description: Library providing core building blocks for libraries and applications written in C
 
@@ -1198,10 +1198,10 @@ Maintainer: @termux
 Installed-Size: 84080
 Depends: glib (= 2.90.1)
 Filename: pool/main/g/glib-cross/glib-cross_2.90.1_all.deb
-Size: 13326008
-MD5sum: 36418b504a655d0d333cbf05279525b9
-SHA1: af33cc982d7c728373ca1ee434dbf0e123c5306c
-SHA256: d0b4a7f0e6856a6601b10b98f1bfa58e9939520beee4b6b1d8a9b45a7270f8ac
+Size: 13326804
+MD5sum: e60e6ab8dff6edec216f5c6117b59981
+SHA1: 9dc3fd90d6ae446d6071ee3ca0992c0edbc127e9
+SHA256: d74c452504cacb1963149962a828705b2b4e39f55fa05d19b0b5e06f75fc0090
 Homepage: https://developer.gnome.org/glib/
 Description: glib for host (NOT for Termux)
 
@@ -2218,10 +2218,10 @@ Installed-Size: 416
 Breaks: libexpat-dev
 Replaces: libexpat-dev
 Filename: pool/main/l/libexpat/libexpat_2.9.0_aarch64.deb
-Size: 100188
-MD5sum: cad22c2b88d58f62bdd4e24af2b5776b
-SHA1: 9e74a2a1e8a6a6c99df77dec4f8889a05c285cca
-SHA256: 27c9c5bbcc194590c548ebe38989d2d1c7b887ff90a24e57974bb9c4903b46d5
+Size: 100168
+MD5sum: 9487cfb4b68a796db187727e76649e41
+SHA1: 0a15cd40ebd2941d923e384c077a7ded559261df
+SHA256: 4e543f9292bd1ad1ca8fc9a374821864fd8fbaabac17f431f4cdc84d092ae7ae
 Homepage: https://libexpat.github.io/
 Description: XML parsing C library
 
@@ -2232,10 +2232,10 @@ Maintainer: @termux
 Installed-Size: 264
 Depends: libexpat (= 2.9.0)
 Filename: pool/main/l/libexpat-static/libexpat-static_2.9.0_aarch64.deb
-Size: 61080
-MD5sum: f2c370a296dc278b95b9a121b9aa2fd1
-SHA1: 1935413b08aa734399cd7da1c5c9fd0123977839
-SHA256: 89a5ad0089f3116e76c34aa1bea1cebed623f9e236d41d1cd23172b12356a89f
+Size: 60872
+MD5sum: 08c178d96a11f6fbee9716c17ecfbe78
+SHA1: 3df8185b6eabac93b60cf3fbb412a73386fad0ab
+SHA256: a11076f0918f4025aa9b7cd0c22f7a58254c6ae3681aacd3acf0466722de6c8c
 Homepage: https://libexpat.github.io/
 Description: Static libraries for libexpat
 
@@ -2462,30 +2462,30 @@ Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Description: Static libraries for libgpg-error
 
 Package: libheif
-Version: 1.23.5
+Version: 1.23.6
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 2464
+Installed-Size: 2432
 Depends: gdk-pixbuf, glib, libaom, libc++, libdav1d, libde265, librav1e, libx264, libx265
-Filename: pool/main/l/libheif/libheif_1.23.5_aarch64.deb
-Size: 599064
-MD5sum: 987fd45ca9262c422f724da20f13bc78
-SHA1: b0797ed6976f67066bc68969920db21f6f3bd667
-SHA256: 53d24c6eeb918e74f3905acc522e55c85629fa1a40dc6d8e186e44650814234d
+Filename: pool/main/l/libheif/libheif_1.23.6_aarch64.deb
+Size: 595676
+MD5sum: cc74fee8fc0225d5b4dcedea6f542215
+SHA1: e0fe2788c4f5a7eece2b71a44fc552017361f79f
+SHA256: 7478c210bd098caa72769c03399a2612bca25cfce6112560e0424553bf5d5ebf
 Homepage: https://github.com/strukturag/libheif
 Description: HEIF (HEIC/AVIF) image encoding and decoding library
 
 Package: libheif-progs
-Version: 1.23.5
+Version: 1.23.6
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 624
-Depends: libjpeg-turbo, libpng, libheif (= 1.23.5)
-Filename: pool/main/l/libheif-progs/libheif-progs_1.23.5_aarch64.deb
-Size: 154760
-MD5sum: 8fa67384179e2231783a8ea642fbe73f
-SHA1: 6d5e38a5f040ce64bb6726913e82ff8b263be11e
-SHA256: 379f4d743f27ea81b37f55e6f986cbb4ec985fa89717b49779e43a624d21eadf
+Installed-Size: 616
+Depends: libjpeg-turbo, libpng, libheif (= 1.23.6)
+Filename: pool/main/l/libheif-progs/libheif-progs_1.23.6_aarch64.deb
+Size: 151976
+MD5sum: 030dc2565328b54dd907ed7fc2b34690
+SHA1: a8dd7635f5359c1ab282132369745c69d029bbd7
+SHA256: b33aadcda921f2e003a50d213d41212614fb2ed9e9dfec5b9feb7e65a665e18d
 Homepage: https://github.com/strukturag/libheif
 Description: Programs for manipulating HEIF (HEIC/AVIF) image files
 
@@ -6243,10 +6243,10 @@ Suggests: termux-api
 Conflicts: procps (<< 3.3.15-2)
 Breaks: termux-keyring (<< 1.9)
 Filename: pool/main/t/termux-tools/termux-tools_1.48.0_aarch64.deb
-Size: 28748
-MD5sum: 5e954b16d8b6e8929f61098d7dd96c69
-SHA1: 9ccb03f56eac4b5f266afa97146f8eb71c8a450f
-SHA256: 78697a33df1ec7c7ab43afd6216ef54750cff1fdfa5e82d747ef8cdb8ef04ef9
+Size: 28760
+MD5sum: 7b3252eb3d427f9279686c6ed87cec6f
+SHA1: 1afab53e3fa28d80546854f275ad5df6a7f7707b
+SHA256: 9a2fe0c5ebdad4659b9f67ce8fe23555185b0500dd006b07f7d0048d0012abe1
 Homepage: https://termux.dev/
 Description: Basic system tools for Termux
 

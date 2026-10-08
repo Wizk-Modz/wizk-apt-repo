@@ -25792,7 +25792,7 @@ data/data/com.wizkterm/files/usr/lib/libhdr10plus.a libx265-static
 data/data/com.wizkterm/files/usr/lib/libhdr10plus.so libx265
 data/data/com.wizkterm/files/usr/lib/libheif.so libheif
 data/data/com.wizkterm/files/usr/lib/libheif.so.1 libheif
-data/data/com.wizkterm/files/usr/lib/libheif.so.1.23.5 libheif
+data/data/com.wizkterm/files/usr/lib/libheif.so.1.23.6 libheif
 data/data/com.wizkterm/files/usr/lib/libhistory.a readline-static
 data/data/com.wizkterm/files/usr/lib/libhistory.so readline
 data/data/com.wizkterm/files/usr/lib/libhistory.so.8 readline
