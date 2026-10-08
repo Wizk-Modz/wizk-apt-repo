@@ -32120,6 +32120,9 @@ data/data/com.wizkterm/files/usr/lib/python3.14/site-packages/lameenc-1.8.4.dist
 data/data/com.wizkterm/files/usr/lib/python3.14/site-packages/lameenc-1.8.4.dist-info/licenses/LICENSE python-lameenc
 data/data/com.wizkterm/files/usr/lib/python3.14/site-packages/lameenc-1.8.4.dist-info/top_level.txt python-lameenc
 data/data/com.wizkterm/files/usr/lib/python3.14/site-packages/lameenc.cpython-314-aarch64-linux-android.so python-lameenc
+data/data/com.wizkterm/files/usr/lib/python3.14/site-packages/libmount/__init__.py util-linux
+data/data/com.wizkterm/files/usr/lib/python3.14/site-packages/libmount/pylibmount.la util-linux-static
+data/data/com.wizkterm/files/usr/lib/python3.14/site-packages/libmount/pylibmount.so util-linux
 data/data/com.wizkterm/files/usr/lib/python3.14/site-packages/libsass-0.23.0.dist-info/INSTALLER python-libsass
 data/data/com.wizkterm/files/usr/lib/python3.14/site-packages/libsass-0.23.0.dist-info/METADATA python-libsass
 data/data/com.wizkterm/files/usr/lib/python3.14/site-packages/libsass-0.23.0.dist-info/RECORD python-libsass
