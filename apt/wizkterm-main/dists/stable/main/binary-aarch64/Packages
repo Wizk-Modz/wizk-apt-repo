@@ -1060,16 +1060,16 @@ Homepage: https://wiki.gnome.org/Projects/GdkPixbuf
 Description: Library for image loading and manipulation
 
 Package: gh
-Version: 2.101.0
+Version: 2.102.0
 Architecture: aarch64
 Maintainer: Krishna kanhaiya @kcubeterm
-Installed-Size: 43032
+Installed-Size: 43120
 Recommends: openssh
-Filename: pool/main/g/gh/gh_2.101.0_aarch64.deb
-Size: 10071572
-MD5sum: 3bcde8b02844bd27193370c104c15b2e
-SHA1: 37e8354e383bf99f6a0966e8cea49ec942d0b28f
-SHA256: 96325b386da674403baaf69db08ce3c9806639a0137fc6974a337b415297d90a
+Filename: pool/main/g/gh/gh_2.102.0_aarch64.deb
+Size: 10084240
+MD5sum: 3df76aee7d12f2029c02b2dd0730d466
+SHA1: 8fefdd7a051f1774d6d8b4bc31a810cdb87275f4
+SHA256: 3c123598a08a935152235f1c2b44bb3ac6f462ff695b163b6652c4b1fd699fb5
 Homepage: https://cli.github.com/
 Description: GitHub’s official command line tool
 
