@@ -4296,18 +4296,18 @@ Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxtst
 
 Package: libzip
-Version: 1.11.4-1
+Version: 1.12
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 932
+Installed-Size: 944
 Depends: libbz2, liblzma, openssl, zlib, zstd
 Breaks: libzip-dev
 Replaces: libzip-dev
-Filename: pool/main/l/libzip/libzip_1.11.4-1_aarch64.deb
-Size: 242388
-MD5sum: 323f440c87911e8b90034a72490698b0
-SHA1: 1d38b24c171eed8e975255354ba8ed24fec684bf
-SHA256: f779e31121f01a82a68900b87d7d34b5168b664312100d24a1dc851f03887b46
+Filename: pool/main/l/libzip/libzip_1.12_aarch64.deb
+Size: 247984
+MD5sum: 69cb4bc9125858c9958edfb5316e194c
+SHA1: ca1adfbba2cccb262458b9fc42aa0797fa8b26cd
+SHA256: c7dc54e18d59b3419b0c9c817af6633c2cac81b78e981f075db9b23261ac7b17
 Homepage: https://libzip.org/
 Description: Library for reading, creating, and modifying zip archives
 
