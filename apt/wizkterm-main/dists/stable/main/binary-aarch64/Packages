@@ -2211,31 +2211,31 @@ Homepage: https://libevent.org/
 Description: Library that provides asynchronous event notification
 
 Package: libexpat
-Version: 2.8.5
+Version: 2.9.0
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 416
 Breaks: libexpat-dev
 Replaces: libexpat-dev
-Filename: pool/main/l/libexpat/libexpat_2.8.5_aarch64.deb
-Size: 98764
-MD5sum: a22f3e41515a8575c36c1367c4468f78
-SHA1: 043921e6d643f31a7bb9698c4568d4e2a42ad4df
-SHA256: 64af02def197b3023a151dab886945736403458ef9f69308fb11b50fccdcbf42
+Filename: pool/main/l/libexpat/libexpat_2.9.0_aarch64.deb
+Size: 100272
+MD5sum: 29c0ad6da698310af4c2a41e6201e3dc
+SHA1: e723d68d89b7991890df1c3f55575ff3b7a9dd23
+SHA256: 1b461637ff3058cfd354fa35f221d47a8e924843bba7df280d45a6ff9bcffd12
 Homepage: https://libexpat.github.io/
 Description: XML parsing C library
 
 Package: libexpat-static
-Version: 2.8.5
+Version: 2.9.0
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 260
-Depends: libexpat (= 2.8.5)
-Filename: pool/main/l/libexpat-static/libexpat-static_2.8.5_aarch64.deb
-Size: 60196
-MD5sum: a7b5fb8037af862cf99dae3996fdd30d
-SHA1: 0d221376b4af68013801b2175f11f750289c21a0
-SHA256: 0973b26d866689af929978158872a0e926fb357745ea6a107450181debe952d1
+Installed-Size: 264
+Depends: libexpat (= 2.9.0)
+Filename: pool/main/l/libexpat-static/libexpat-static_2.9.0_aarch64.deb
+Size: 60904
+MD5sum: e59878881e047a2ed42e005eb8a0d0dc
+SHA1: 3d04854c1ad39c030f2c5eab174faa28a896ef8c
+SHA256: 2f8b4394c97e9e3f282e7a3f3c6f78f247b7c00e57bf17497076eb818259e56c
 Homepage: https://libexpat.github.io/
 Description: Static libraries for libexpat
 

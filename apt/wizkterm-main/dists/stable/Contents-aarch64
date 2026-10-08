@@ -15656,10 +15656,10 @@ data/data/com.wizkterm/files/usr/lib/cmake/clang/ClangConfig.cmake clang
 data/data/com.wizkterm/files/usr/lib/cmake/clang/ClangConfigVersion.cmake clang
 data/data/com.wizkterm/files/usr/lib/cmake/clang/ClangTargets-release.cmake clang
 data/data/com.wizkterm/files/usr/lib/cmake/clang/ClangTargets.cmake clang
-data/data/com.wizkterm/files/usr/lib/cmake/expat-2.8.5/expat-config-version.cmake libexpat
-data/data/com.wizkterm/files/usr/lib/cmake/expat-2.8.5/expat-config.cmake libexpat
-data/data/com.wizkterm/files/usr/lib/cmake/expat-2.8.5/expat-noconfig.cmake libexpat
-data/data/com.wizkterm/files/usr/lib/cmake/expat-2.8.5/expat.cmake libexpat
+data/data/com.wizkterm/files/usr/lib/cmake/expat-2.9.0/expat-config-version.cmake libexpat
+data/data/com.wizkterm/files/usr/lib/cmake/expat-2.9.0/expat-config.cmake libexpat
+data/data/com.wizkterm/files/usr/lib/cmake/expat-2.9.0/expat-noconfig.cmake libexpat
+data/data/com.wizkterm/files/usr/lib/cmake/expat-2.9.0/expat.cmake libexpat
 data/data/com.wizkterm/files/usr/lib/cmake/jsoncpp/jsoncpp-namespaced-targets.cmake jsoncpp
 data/data/com.wizkterm/files/usr/lib/cmake/jsoncpp/jsoncpp-targets-release.cmake jsoncpp
 data/data/com.wizkterm/files/usr/lib/cmake/jsoncpp/jsoncpp-targets.cmake jsoncpp
@@ -25701,7 +25701,7 @@ data/data/com.wizkterm/files/usr/lib/libexpat.a libexpat-static
 data/data/com.wizkterm/files/usr/lib/libexpat.la libexpat-static
 data/data/com.wizkterm/files/usr/lib/libexpat.so libexpat
 data/data/com.wizkterm/files/usr/lib/libexpat.so.1 libexpat
-data/data/com.wizkterm/files/usr/lib/libexpat.so.1.12.5 libexpat
+data/data/com.wizkterm/files/usr/lib/libexpat.so.1.13.0 libexpat
 data/data/com.wizkterm/files/usr/lib/libexslt.so libxslt
 data/data/com.wizkterm/files/usr/lib/libfdisk.a util-linux-static
 data/data/com.wizkterm/files/usr/lib/libfdisk.la util-linux-static
