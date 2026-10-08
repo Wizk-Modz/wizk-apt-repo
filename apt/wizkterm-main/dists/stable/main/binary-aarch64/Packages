@@ -2218,10 +2218,10 @@ Installed-Size: 416
 Breaks: libexpat-dev
 Replaces: libexpat-dev
 Filename: pool/main/l/libexpat/libexpat_2.9.0_aarch64.deb
-Size: 100216
-MD5sum: 0e03498c94e3e5e5c1d15c4e2308d675
-SHA1: 1086c126ecdccf1517aa27b5c511fcf3d15f0530
-SHA256: f82ddc6379346e2252819e44e91b96e39c4a6ea530149ed577a5811e9bd53e19
+Size: 100188
+MD5sum: cad22c2b88d58f62bdd4e24af2b5776b
+SHA1: 9e74a2a1e8a6a6c99df77dec4f8889a05c285cca
+SHA256: 27c9c5bbcc194590c548ebe38989d2d1c7b887ff90a24e57974bb9c4903b46d5
 Homepage: https://libexpat.github.io/
 Description: XML parsing C library
 
@@ -2232,10 +2232,10 @@ Maintainer: @termux
 Installed-Size: 264
 Depends: libexpat (= 2.9.0)
 Filename: pool/main/l/libexpat-static/libexpat-static_2.9.0_aarch64.deb
-Size: 60916
-MD5sum: 18fd9397c6c75294cc87a1c801538f6c
-SHA1: 3d3d23d14b8aeedf6ac840297c353aa7cb7945e4
-SHA256: b57d90d757a4361e297cc30fdbd730fe007792d2ae3a2d5b91af13c9a4968f50
+Size: 61080
+MD5sum: f2c370a296dc278b95b9a121b9aa2fd1
+SHA1: 1935413b08aa734399cd7da1c5c9fd0123977839
+SHA256: 89a5ad0089f3116e76c34aa1bea1cebed623f9e236d41d1cd23172b12356a89f
 Homepage: https://libexpat.github.io/
 Description: Static libraries for libexpat
 
@@ -5932,60 +5932,60 @@ Homepage: https://sourceforge.net/projects/sshpass/
 Description: Noninteractive ssh password provider
 
 Package: subversion
-Version: 1.14.5-3
+Version: 1.15.0
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 6176
+Installed-Size: 6208
 Depends: apr, apr-util, serf, libexpat, libsqlite, liblz4, utf8proc, zlib, libmagic
 Breaks: subversion-dev
 Replaces: subversion-dev
-Filename: pool/main/s/subversion/subversion_1.14.5-3_aarch64.deb
-Size: 1394976
-MD5sum: 5094d3233b235cdf96756f7c9d3ee06b
-SHA1: 0af88b2e8d6b15b84e94398b5a6843b417f0b9e7
-SHA256: a12678ed31228b77930e6f6b0a91eb9ac9785040f7a244be226d49f9fc0253c2
+Filename: pool/main/s/subversion/subversion_1.15.0_aarch64.deb
+Size: 1399548
+MD5sum: 23f840368e156feeda48e731d7dda64d
+SHA1: 122016e811c75712c8311dd8062d9f5dc795b9ad
+SHA256: 1cc6b2a6cac78208ec2165aed32eaf008f5e8cf374e2ec7bddd7d8594364f2bf
 Homepage: https://subversion.apache.org
 Description: Centralized version control system characterized by its simplicity
 
 Package: subversion-perl
-Version: 1.14.5-3
+Version: 1.15.0
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 3712
-Depends: perl, subversion (= 1.14.5-3)
-Filename: pool/main/s/subversion-perl/subversion-perl_1.14.5-3_aarch64.deb
-Size: 782572
-MD5sum: d9c11c3bdcdb710fcce37f173e506cbc
-SHA1: 75e1221a529e6c74f83e579468c85d29ec192392
-SHA256: 20f6f95d6d0def7e7a33fbe559864ca381dc8033ad3c52bf59466389adbde6df
+Installed-Size: 3748
+Depends: perl, subversion (= 1.15.0)
+Filename: pool/main/s/subversion-perl/subversion-perl_1.15.0_aarch64.deb
+Size: 789916
+MD5sum: cda73a31f5301835d08d7c052491314c
+SHA1: b5cb661e13a12b6b3443524cd9ce78ddf57ac32b
+SHA256: 5edfaaf5538eb654a0d286c188b52c18a82bff7ce422903b2b45b22c5865e9fb
 Homepage: https://subversion.apache.org
 Description: Perl interface to Subversion
 
 Package: subversion-perl-static
-Version: 1.14.5-3
+Version: 1.15.0
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 92
-Depends: subversion-perl, subversion (= 1.14.5-3)
-Filename: pool/main/s/subversion-perl-static/subversion-perl-static_1.14.5-3_aarch64.deb
-Size: 15684
-MD5sum: 7215145b9de8785971c21d0ca50bfe62
-SHA1: 0871b9e416b7806076b11e6df8d9be57c1ecbddf
-SHA256: f36332973663a06387fed272de5a65727e26d7a76115b1f3b0bfba4dfa4225bf
+Depends: subversion-perl, subversion (= 1.15.0)
+Filename: pool/main/s/subversion-perl-static/subversion-perl-static_1.15.0_aarch64.deb
+Size: 15664
+MD5sum: 849123a1d7f713c821dcbc2cedc8cf43
+SHA1: 818c76bbcaf32e576b4531ea25115c04ac18e6de
+SHA256: da9460d2bad0237300f853fb48110ce69d7f13ceb554c550cc4f25a5d26d9b1d
 Homepage: https://subversion.apache.org
 Description: Static libraries for subversion-perl
 
 Package: subversion-static
-Version: 1.14.5-3
+Version: 1.15.0
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 5740
-Depends: subversion (= 1.14.5-3)
-Filename: pool/main/s/subversion-static/subversion-static_1.14.5-3_aarch64.deb
-Size: 1146692
-MD5sum: 0245c1bca76e6461d8ecafb1d74ca04d
-SHA1: a4f6b50bc3f9557db335743f546d35e6ff7ec1e8
-SHA256: c3327f2ef12dd54365cdf92333e6d37866c774384c6ab4db424d406ca0613158
+Installed-Size: 5764
+Depends: subversion (= 1.15.0)
+Filename: pool/main/s/subversion-static/subversion-static_1.15.0_aarch64.deb
+Size: 1145952
+MD5sum: c9db5432d49cc9e646c4f5671a1a668c
+SHA1: b77113453c981ec94ae8f51b9982a163016ce8ca
+SHA256: d6733a259b03fa7e23218f00a079805220ca8d5d0b32c7941a16bff5d18a349c
 Homepage: https://subversion.apache.org
 Description: Static libraries for subversion
 
