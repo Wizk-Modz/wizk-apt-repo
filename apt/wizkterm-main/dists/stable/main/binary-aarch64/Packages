@@ -6310,16 +6310,16 @@ Homepage: https://tcl.sourceforge.net/
 Description: A windowing toolkit for use with tcl
 
 Package: tmux
-Version: 3.7c-1
+Version: 3.8
 Architecture: aarch64
 Maintainer: Joshua Kahn <tom@termux.dev>
-Installed-Size: 1192
+Installed-Size: 1380
 Depends: ncurses, libevent, libandroid-support, libandroid-glob, utf8proc
-Filename: pool/main/t/tmux/tmux_3.7c-1_aarch64.deb
-Size: 386436
-MD5sum: f20435a05ccb4cae6f4c2036469181fa
-SHA1: ea24d548cf8a271052a8c64e2fcc4f40cf05af2f
-SHA256: ff666994cf318fee2a7cba6c61f33d8c107dd87c969d4d4a14a859750555da2f
+Filename: pool/main/t/tmux/tmux_3.8_aarch64.deb
+Size: 449340
+MD5sum: a836c08165e300cc81c205fe1725b71b
+SHA1: a9139e940b6f42df777efa94a05b1551dfe7984f
+SHA256: 425630fae3f64d6079585ad8e1a1931c2f8539c16f08267c687ee34e35bf4628
 Homepage: https://tmux.github.io/
 Description: Terminal multiplexer
 
