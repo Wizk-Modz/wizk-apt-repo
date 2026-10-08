@@ -2218,10 +2218,10 @@ Installed-Size: 416
 Breaks: libexpat-dev
 Replaces: libexpat-dev
 Filename: pool/main/l/libexpat/libexpat_2.9.0_aarch64.deb
-Size: 100324
-MD5sum: d5ddbd155c47b754401a647b728ff6a1
-SHA1: aea19521758b1bb7b78e642e961494f39cbcbf0a
-SHA256: a0f6793a3c9cecbf7efc63200ea6520764db055e7816fd715f4c68d40d535c77
+Size: 100264
+MD5sum: e46c8129b74709891469ee8b727299f6
+SHA1: fcd71b70064ea90eaa3d7aaf8af45a42b121f799
+SHA256: 01e190fb623744323196c29b009eb8963d9a61c14d3cc23cc21ca3b8b4372030
 Homepage: https://libexpat.github.io/
 Description: XML parsing C library
 
@@ -2232,10 +2232,10 @@ Maintainer: @termux
 Installed-Size: 264
 Depends: libexpat (= 2.9.0)
 Filename: pool/main/l/libexpat-static/libexpat-static_2.9.0_aarch64.deb
-Size: 60928
-MD5sum: 94b709217a7038c23fde937107df3569
-SHA1: 41597022246ba6357680cf28e38353d3fd636462
-SHA256: 4e56506293d350e2598233db22d22eb0986721e545b1e33a3434804503841b2d
+Size: 60808
+MD5sum: 600c3ef8ac505e3bc0626224cde4a521
+SHA1: 2f14943aa9f45254c5837f5b2520a0db98392d09
+SHA256: ab09ce7265a3d2d45745e5261514b0fc78e1855ffbd4c93d83552f10816e53f5
 Homepage: https://libexpat.github.io/
 Description: Static libraries for libexpat
 
@@ -5500,16 +5500,16 @@ Homepage: https://github.com/giampaolo/psutil
 Description: Cross-platform process and system utilities module for Python
 
 Package: python-pycryptodomex
-Version: 3.23.0-4
+Version: 3.24.0
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 4544
+Installed-Size: 4576
 Depends: python, python-pip
-Filename: pool/main/p/python-pycryptodomex/python-pycryptodomex_3.23.0-4_aarch64.deb
-Size: 1066512
-MD5sum: b9e40d8a46bab5ab9dc4fe89b48f7f8e
-SHA1: 90f302a542c189cc56aa47bdf12d3569a7092523
-SHA256: 64cb1ef7fbb9304578b7201b66ce0bd5b0069e74dc03453f24431e47581903d9
+Filename: pool/main/p/python-pycryptodomex/python-pycryptodomex_3.24.0_aarch64.deb
+Size: 1070884
+MD5sum: fff78a5bb7650b94abf656c7c2b4bdf5
+SHA1: 65b0d4b7b79e1df155ca3d931e322b4844d8bcee
+SHA256: a918757c2f6949060d48ff487bfb95a5434a65f0e49a8712222e2fd393366802
 Homepage: https://www.pycryptodome.org/
 Description: A self-contained Python package of low-level cryptographic primitives
 
