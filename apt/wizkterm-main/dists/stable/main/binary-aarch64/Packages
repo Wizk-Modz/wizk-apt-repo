@@ -1,0 +1,45 @@
+Package: libcap
+Version: 2.78
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 564
+Depends: attr
+Breaks: libcap-dev
+Replaces: libcap-dev
+Filename: pool/main/l/libcap/libcap_2.78_aarch64.deb
+Size: 79336
+MD5sum: 23cbb6874f1d29f51640c2705cfa18d1
+SHA1: ba0d17cacec2782417e49ff1b93da207d92f5574
+SHA256: 0d74d92a91c8af2a9c7ceef7db23a2f5bf1654c94e800a9121465c2ffb706d43
+Homepage: https://sites.google.com/site/fullycapable/
+Description: POSIX 1003.1e capabilities
+
+Package: libcap-static
+Version: 2.78
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: libcap (= 2.78)
+Filename: pool/main/l/libcap-static/libcap-static_2.78_aarch64.deb
+Size: 15364
+MD5sum: f9b33188430849ac090c0f9bf7860f89
+SHA1: 844872c89e17f8a61ab22558b5c7a4f0635b6976
+SHA256: dcdbb0d71c6b10edcf94c8c21672fd16089742795e7020334c4fa688b85eddb5
+Homepage: https://sites.google.com/site/fullycapable/
+Description: Static libraries for libcap
+
+Package: zsh
+Version: 5.9.2-1
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 9128
+Depends: libandroid-support, libcap, ncurses, termux-tools, pcre2
+Recommends: command-not-found, zsh-completions
+Filename: pool/main/z/zsh/zsh_5.9.2-1_aarch64.deb
+Size: 2016260
+MD5sum: c4ba0e2805d2db3444e828c5c19cc8bc
+SHA1: ccfff367f44457240809f94462bedcf81671e31b
+SHA256: 36df05b2ae8da025d12dae04a9eb4649c2bd8044c524df01676bb4092ebfa14b
+Homepage: https://www.zsh.org
+Description: Shell with lots of features
+
