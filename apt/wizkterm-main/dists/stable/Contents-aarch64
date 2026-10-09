@@ -16652,6 +16652,7 @@ data/data/com.wizkterm/files/usr/lib/go/src/cmd/compile/internal/test/issue53888
 data/data/com.wizkterm/files/usr/lib/go/src/cmd/compile/internal/test/issue57434_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/cmd/compile/internal/test/issue62407_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/cmd/compile/internal/test/issue71943_test.go golang
+data/data/com.wizkterm/files/usr/lib/go/src/cmd/compile/internal/test/issue_81478_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/cmd/compile/internal/test/lang_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/cmd/compile/internal/test/locals_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/cmd/compile/internal/test/logic_test.go golang
@@ -17008,6 +17009,7 @@ data/data/com.wizkterm/files/usr/lib/go/src/cmd/go/internal/modfetch/codehost/vc
 data/data/com.wizkterm/files/usr/lib/go/src/cmd/go/internal/modfetch/coderepo.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/cmd/go/internal/modfetch/coderepo_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/cmd/go/internal/modfetch/fetch.go golang
+data/data/com.wizkterm/files/usr/lib/go/src/cmd/go/internal/modfetch/fetch_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/cmd/go/internal/modfetch/key.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/cmd/go/internal/modfetch/proxy.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/cmd/go/internal/modfetch/repo.go golang
@@ -18720,6 +18722,7 @@ data/data/com.wizkterm/files/usr/lib/go/src/crypto/internal/fips140/mldsa/mldsa.
 data/data/com.wizkterm/files/usr/lib/go/src/crypto/internal/fips140/mldsa/mldsa_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/crypto/internal/fips140/mldsa/semiexpanded.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/crypto/internal/fips140/mlkem/cast.go golang
+data/data/com.wizkterm/files/usr/lib/go/src/crypto/internal/fips140/mlkem/cast_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/crypto/internal/fips140/mlkem/field.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/crypto/internal/fips140/mlkem/field_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/crypto/internal/fips140/mlkem/generate1024.go golang
@@ -21079,6 +21082,7 @@ data/data/com.wizkterm/files/usr/lib/go/src/net/http/header.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/net/http/header_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/net/http/http.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/net/http/http1_server_test.go golang
+data/data/com.wizkterm/files/usr/lib/go/src/net/http/http1_transport_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/net/http/http2.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/net/http/http_test.go golang
 data/data/com.wizkterm/files/usr/lib/go/src/net/http/httptest/example_test.go golang

@@ -1252,31 +1252,31 @@ Homepage: https://gi.readthedocs.io/
 Description: Uniform machine readable API
 
 Package: golang
-Version: 3:1.27.1
+Version: 3:1.27.2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 223812
+Installed-Size: 223924
 Depends: clang
 Recommends: resolv-conf
-Filename: pool/main/g/golang/golang_3:1.27.1_aarch64.deb
-Size: 38090052
-MD5sum: 350e3b346850bddd11d35c7cdda7d564
-SHA1: b0629e69e07b92401c9027c19c21549426708f96
-SHA256: 5dfce21272d7819c9cc93bb6c00158fe79f98182f03920ad5b7383587b4101e1
+Filename: pool/main/g/golang/golang_3:1.27.2_aarch64.deb
+Size: 38113944
+MD5sum: b79af5e1e243f1667c05ef037e6ada94
+SHA1: 03b2ba38fef16dc33b0abe8666bf4799d5134dcb
+SHA256: f616314944a419842fdf60160525a6b04b2a5c07fbddd8ac2843f9079840e1ea
 Homepage: https://go.dev/
 Description: Go programming language compiler
 
 Package: golang-doc
-Version: 3:1.27.1
+Version: 3:1.27.2
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 476
-Depends: golang (= 3:1.27.1)
-Filename: pool/main/g/golang-doc/golang-doc_3:1.27.1_aarch64.deb
-Size: 94636
-MD5sum: 043c0899eac95b6617831d017347013d
-SHA1: 2dfdb710985e4fc6f195e369ab8737f9225ab442
-SHA256: cdfc7def758f8cbfaeb786d7cbabdf7be6170c0553b9ac430ab5a320b8072a21
+Depends: golang (= 3:1.27.2)
+Filename: pool/main/g/golang-doc/golang-doc_3:1.27.2_aarch64.deb
+Size: 94716
+MD5sum: db2e2e81a22e43cb8f210a3db6d68bee
+SHA1: 088d0b802fc42c21265c6d74c1d138c9e3176925
+SHA256: 338ace4d7c0dd7c6ec98067e7a5c0b823930a04ef85ff5e1d4d8d100dad4d863
 Homepage: https://go.dev/
 Description: Go programming language - documentation
 
