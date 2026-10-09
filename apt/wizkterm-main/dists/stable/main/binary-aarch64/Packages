@@ -2218,10 +2218,10 @@ Installed-Size: 416
 Breaks: libexpat-dev
 Replaces: libexpat-dev
 Filename: pool/main/l/libexpat/libexpat_2.9.0_aarch64.deb
-Size: 100168
-MD5sum: 9487cfb4b68a796db187727e76649e41
-SHA1: 0a15cd40ebd2941d923e384c077a7ded559261df
-SHA256: 4e543f9292bd1ad1ca8fc9a374821864fd8fbaabac17f431f4cdc84d092ae7ae
+Size: 100216
+MD5sum: fa7a607cb5bd07b1eb8817d45781015d
+SHA1: 67be8b7a2e8d7cf9dc0b41672078d59c92641791
+SHA256: 3f6863b2b07f546946dde2b6858c345d0b9c64aa3576889950448a504c38f503
 Homepage: https://libexpat.github.io/
 Description: XML parsing C library
 
@@ -2232,10 +2232,10 @@ Maintainer: @termux
 Installed-Size: 264
 Depends: libexpat (= 2.9.0)
 Filename: pool/main/l/libexpat-static/libexpat-static_2.9.0_aarch64.deb
-Size: 60872
-MD5sum: 08c178d96a11f6fbee9716c17ecfbe78
-SHA1: 3df8185b6eabac93b60cf3fbb412a73386fad0ab
-SHA256: a11076f0918f4025aa9b7cd0c22f7a58254c6ae3681aacd3acf0466722de6c8c
+Size: 61068
+MD5sum: 12ba00b0c4897965c62c534396272bbd
+SHA1: 3fc9d56a7e340657df4e9300acb84831bd37d601
+SHA256: fc9d9d1e7e71dc26f00d83b047d7fb114ac5d561232ea58e91916dd0b1146d12
 Homepage: https://libexpat.github.io/
 Description: Static libraries for libexpat
 
@@ -5542,16 +5542,16 @@ Homepage: https://github.com/crate-py/rpds
 Description: Python bindings to Rust's persistent data structures (rpds)
 
 Package: python-sabyenc3
-Version: 9.7.1
+Version: 9.7.2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 196
+Installed-Size: 200
 Depends: libc++, python
-Filename: pool/main/p/python-sabyenc3/python-sabyenc3_9.7.1_aarch64.deb
-Size: 43132
-MD5sum: a3b3c0d23924a4cb9ecbf12e77c57590
-SHA1: 99a8f95ec57020f1c709ab5d68643fc1e3f8e263
-SHA256: 7b304549f3d79c63626a6c0ca6103e3f87677e64749f331373f949060a14471b
+Filename: pool/main/p/python-sabyenc3/python-sabyenc3_9.7.2_aarch64.deb
+Size: 43332
+MD5sum: d66ed3ff5f66ca07c9e959acbfe387e2
+SHA1: d232d7a9062ad1ac0314258c0b19195898957c8e
+SHA256: cb47c771d2f1466ba8edc612821ebe1e1de87f5e89619073e752be23630767df
 Homepage: https://github.com/sabnzbd/sabctools
 Description: C implementations of functions for use within SABnzbd
 
