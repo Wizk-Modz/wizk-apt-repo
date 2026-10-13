@@ -4555,10 +4555,10 @@ Maintainer: @termux
 Installed-Size: 1040
 Depends: libandroid-support, ncurses, libmagic
 Filename: pool/main/n/nano/nano_9.2-1_aarch64.deb
-Size: 242248
-MD5sum: c9d88fe701372404df3147f70f0cc73c
-SHA1: 93c8f8f4a96eee932dd636541aafbd1bb795079a
-SHA256: e7cd288ba4802f1be0e1f37d9f2d700ffc41cbecccd1abc59b74931275316d2b
+Size: 242272
+MD5sum: 205b41a8c87ee603512af6977b2b9217
+SHA1: d4d2c2deff4db9fa44b94f1c4e051fcfdc4d75e9
+SHA256: c476497861df712fd1b93b2cd38ef04f69c56a2f960d72f9e3d35903e9df56a9
 Homepage: https://www.nano-editor.org/
 Description: Small, free and friendly text editor
 
